@@ -1,0 +1,112 @@
+.div {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.type-31 .save {
+  background: #1a3150 url(../image/custom_bg3b4c7.jpg?id=1846) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: inherit !important;
+  height: 500px;
+}
+.type-31 .save .nd {
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 100%;
+}
+.type-31 .save .nd .content {
+  padding-top: 200px;
+  width: 53%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.type-31 .save .nd .content h1 {
+  text-align: left !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 6.143em;
+}
+.type-31 .save .nd .content p {
+  color: #ffffff;
+  padding-bottom: 2em;
+  font-size: 12px;
+}
+.type-31 .save .nd .content .blue {
+  float: left;
+}
+.type-31 .save .nd .content .cube {
+  width: 150px;
+  height: 100px;
+  transition: all 250ms ease;
+  transform-style: preserve-3d;
+  text-align: center;
+  margin: 0 auto;
+}
+.type-31 .save .nd .content .cube a {
+  text-decoration: none;
+}
+.type-31 .save .nd .content .cube .default-state {
+  transform: translateZ(50px);
+}
+.type-31 .save .nd .content .cube .active-state {
+  transform: rotateX(76deg) translateZ(85px);
+  background-color: #1295d2;
+  color: #ffffff;
+}
+.type-31 .save .nd .content .cube .default-state,
+.type-31 .save .nd .content .cube .active-state {
+  background-color: #1ca9eb;
+  color: #ffffff;
+  height: 60px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 64px;
+  transition: background 250ms ease;
+}
+.type-31 .save .nd .content .cube .cube:hover .default-state {
+  background-color: #1ca9eb;
+  color: #ffffff;
+}
+.type-31 .save .nd .content .cube:hover {
+  transform: rotateX(-89deg) translateZ(-40px);
+}
+@media (max-width: 959px) {
+  .type-31 .save .nd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-31 .save .nd h1 {
+    font-size: 4em !important;
+  }
+}
+@media (max-width: 993px) {
+  .type-31 .save .nd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-31 .save .nd .content {
+    width: 58%;
+  }
+}
+@media (max-width: 639px) {
+  .type-31 .save .nd h1 {
+    font-size: 4em !important;
+  }
+}
+@media (max-width: 500px) {
+  .type-31 .save .nd .content {
+    width: 100% !important;
+    padding-left: 56px;
+  }
+}
+@media (max-width: 392px) {
+  .type-31 .save .nd .content {
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .type-31 .save .container {
+    max-width: 927px;
+  }
+}

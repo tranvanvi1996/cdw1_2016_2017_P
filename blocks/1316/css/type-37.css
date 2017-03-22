@@ -1,0 +1,213 @@
+.type-37 .wrapper {
+  width: auto;
+  background-color: #f6f7f3;
+  font-family: Arial;
+}
+.type-37 .col-xs {
+  width: 25%;
+  float: left;
+}
+.type-37 a {
+  text-decoration: none;
+}
+.type-37 .footer-content {
+  position: relative;
+  box-sizing: border-box;
+  width: auto;
+  margin: 0;
+}
+.type-37 .footer-text {
+  padding-right: 0;
+  padding-left: 0;
+}
+.type-37 .footer-title h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.5em;
+  color: #1a3150;
+}
+.type-37 .footer-title h4 {
+  text-align: center;
+  color: #96bd42;
+  font-weight: 600;
+  font-size: 0.857em;
+  letter-spacing: 2px;
+  margin-bottom: 67px;
+}
+.type-37 .footer-col-title {
+  color: #ffffff;
+  background-color: #1a3150;
+  text-align: center;
+  font-size: 1.214em;
+  font-weight: 700;
+  line-height: 3.235em;
+  min-height: 3.235em;
+}
+.type-37 .col:hover {
+  margin-top: -10px;
+  box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.1);
+}
+.type-37 .col {
+  transition: all ease .5s;
+}
+.type-37 .footer-col-money {
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 7.857em;
+  height: 7.857em;
+  overflow: hidden;
+}
+.type-37 .footer-col-money .usd {
+  font-weight: 900;
+  font-size: 1.429em;
+  line-height: 4.7em;
+  vertical-align: top;
+  color: #1a3150;
+}
+.type-37 .footer-col-money .number {
+  font-weight: 900;
+  font-size: 2.857em;
+  line-height: inherit;
+  color: #1a3150;
+}
+.type-37 .footer-col-money .text {
+  color: #1a3150;
+  font-weight: 700;
+}
+.type-37 .footer-col-money .text1 {
+  content: '/';
+  display: inline-block;
+  font-weight: 700;
+}
+.type-37 .footer-col-description {
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+.type-37 .footer-col-description p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.3em;
+  height: 5.2857em;
+  padding: 0 5px;
+  color: #aab2bd;
+  overflow: hidden;
+}
+.type-37 .footer-col-button {
+  background-color: #fff;
+  margin-top: -10px;
+}
+.type-37 .cube {
+  width: auto;
+  height: auto;
+}
+.type-37 .default-state,
+.type-37 .active-state {
+  height: auto;
+}
+.type-37 body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 70px;
+  background: #f1f1f1;
+}
+.type-37 h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.type-37 .cube {
+  text-align: center;
+  margin: 0 auto;
+}
+.type-37 .default-state,
+.type-37 .active-state {
+  background: #1ca9eb;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 55px;
+  height: 55px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+.type-37 .cube:hover .default-state {
+  background: #1294d1;
+}
+.type-37 .active-state {
+  background: #0f7eb1;
+}
+@media (max-width: 767px) and (min-width: 480px) {
+  .type-37 .sc_googlemap_content {
+    position: static;
+    width: auto;
+  }
+  .type-37 .col-xs {
+    width: 50% !important;
+    float: left !important;
+  }
+  .type-37 .col {
+    margin-bottom: 20px;
+  }
+  .type-37 .default-state,
+  .type-37 .active-state {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .type-37 .footer-wrapper ul li a {
+    font-size: 12px !important;
+  }
+  .type-37 .description {
+    font-size: 10px !important;
+  }
+  .type-37 .widget-text p {
+    font-size: 12px;
+  }
+  .type-37 .post-content {
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 479px) {
+  .type-37 .container {
+    max-width: 280px;
+  }
+  .type-37 .col {
+    margin-bottom: 20px;
+  }
+  .type-37 .col-xs {
+    width: 100% !important;
+    float: none !important;
+  }
+  .type-37 .footer-wrapper ul li a {
+    font-size: 12px !important;
+  }
+  .type-37 .description {
+    font-size: 13px !important;
+  }
+  .type-37 .widget-text p {
+    font-size: 12px;
+  }
+  .type-37 .post-content {
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .type-37 .sc_googlemap_content {
+    position: static;
+    width: auto;
+  }
+  .type-37 .footer-wrapper ul li a {
+    font-size: 14px !important;
+  }
+  .type-37 .description {
+    font-size: 13px !important;
+    padding-top: 10px;
+  }
+  .type-37 .widget-text p {
+    font-size: 12px;
+  }
+  .type-37 .post-content {
+    font-size: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+}
