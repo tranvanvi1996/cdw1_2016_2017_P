@@ -1,0 +1,334 @@
+.type-1327 #respond {
+  position: static;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  background: 0 0;
+  border: 0;
+}
+.type-1327 #respond input {
+  text-align: center;
+  padding: 1.286em 2.500em;
+  font-size: 1em;
+  line-height: 1.3em;
+  font-weight: 700;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  margin-top: 10px;
+}
+.type-1327 .submit {
+  background-color: #96bd42;
+}
+.type-1327 #respond p {
+  margin: 0 0 10px;
+}
+.type-1327 h1,
+.type-1327 h2,
+.type-1327 h3,
+.type-1327 h4,
+.type-1327 h5,
+.type-1327 h6,
+.type-1327 p,
+.type-1327 ul,
+.type-1327 ol,
+.type-1327 dl,
+.type-1327 blockquote,
+.type-1327 address {
+  margin: 0;
+}
+.type-1327 h5 {
+  font-size: 1.214em;
+  font-weight: 700;
+  line-height: 125%;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+.type-1327 a:hover,
+.type-1327 a:hover,
+.type-1327 a:hover {
+  color: #7ca813;
+  transition: all 0.3s ease 0s;
+}
+.type-1327 a {
+  color: #96bd42;
+  text-decoration: none;
+}
+.type-1327 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.type-1327 .star {
+  padding-top: 6px;
+  float: right;
+}
+.type-1327 .meta {
+  padding-top: 6px;
+  float: left;
+  color: #777;
+  font-size: 0.83em;
+}
+.type-1327 .abn {
+  padding: 4em 0;
+}
+.type-1327 .nav > li > a {
+  position: relative;
+  display: block;
+  color: #333;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 15px 30px;
+  background: #fff;
+}
+.type-1327 .nav > li > a:hover {
+  background: #fff;
+  color: #96bd42;
+}
+.type-1327 .nav-pills > li.active > a,
+.type-1327 .nav-pills > li.active > a:hover,
+.type-1327 .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #96bd42;
+}
+.type-1327 .nav-pills > li + li {
+  margin-left: 10px;
+}
+.type-1327 .nav-pills > li > a {
+  border-radius: 0px;
+}
+.type-1327 .text-1 h2,
+.type-1327 .text-2 h2,
+.type-1327 .text-3 h2 {
+  padding: 1em 0;
+  font-size: 2em;
+}
+.type-1327 .text-1 p {
+  color: #707276;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: inherit;
+}
+.type-1327 p.meta strong {
+  color: #1a3150;
+  font-size: 1.83em;
+  font-weight: normal;
+}
+.type-1327 p.meta time {
+  color: #777;
+  font-style: italic;
+}
+.type-1327 .ab {
+  color: #7ca813;
+  font-size: 10px;
+}
+.type-1327 .ac {
+  color: #d3ced2;
+  font-size: 10px;
+}
+.type-1327 .comment-text p {
+  color: #707276;
+  font-size: 15px;
+  margin-bottom: 0.7em;
+}
+.type-1327 h2 {
+  padding-bottom: 0.5em;
+}
+@media (max-width: 1135px) {
+  .type-1327 p {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .type-1327 .container {
+    max-width: 708px;
+  }
+  .type-1327 .wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .type-1327 .comment {
+    width: 90%;
+  }
+  .type-1327 .img {
+    width: 10%;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .type-1327 .container {
+    max-width: 440px;
+  }
+  .type-1327 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-1327 .nav-pills > li + li,
+  .type-1327 .nav-pills > li {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .type-1327 .comment {
+    width: 82%;
+  }
+  .type-1327 .img {
+    width: 18%;
+  }
+  .type-1327 .nav > li > a {
+    padding: 15px 10px;
+  }
+}
+@media (max-width: 479px) {
+  .type-1327 .container {
+    width: 280px;
+  }
+  .type-1327 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-1327 .nav-pills > li + li,
+  .type-1327 .nav-pills > li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .type-1327 .comment {
+    width: 80%;
+  }
+  .type-1327 .img {
+    width: 20%;
+  }
+}
+.type-1327 #respond textarea {
+  height: 150px;
+  width: 100%;
+  overflow: auto;
+}
+.type-1327 h1,
+.type-1327 h2,
+.type-1327 h3,
+.type-1327 h4,
+.type-1327 h5,
+.type-1327 h6,
+.type-1327 h1 a,
+.type-1327 h2 a,
+.type-1327 h3 a,
+.type-1327 h4 a,
+.type-1327 h5 a,
+.type-1327 h6 a {
+  color: #1a3150;
+}
+.type-1327 textarea {
+  -webkit-appearance: none;
+  appearance: none !important;
+  outline: none;
+  resize: none;
+  padding: 0.45em 0.5em;
+  border: 2px solid transparent;
+  border-radius: 0;
+  transition: all ease .3s;
+}
+.type-1327 input[type="text"] {
+  -webkit-appearance: none;
+  appearance: none !important;
+  outline: none;
+  resize: none;
+  padding: 0.45em 0.5em;
+  border: 2px solid transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  transition: all ease .3s;
+}
+.type-1327 .back {
+  background-color: #f6f7f3 !important;
+}
+.type-1327 .wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.type-1327 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.type-1327 .text-1 p.a {
+  margin-bottom: 1.5em;
+}
+.type-1327 table.shop_attributes {
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,0.1);
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  width: 100%;
+}
+.type-1327 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.type-1327 table.shop_attributes th {
+  width: 150px;
+  font-weight: 700;
+  padding: 8px;
+  line-height: 1.5;
+  color: #1a3150;
+  text-align: center;
+}
+.type-1327 table.shop_attributes td p {
+  color: #96bd42;
+  font-weight: 600;
+  font-style: italic;
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .type-1327 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-1327 .container {
+    max-width: 600px;
+  }
+  .type-1327 .nav-pills > li + li,
+  .type-1327 .nav-pills > li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .type-1327 .comment {
+    width: 88%;
+  }
+  .type-1327 .img {
+    width: 12%;
+  }
+  .type-1327 .nav > li > a {
+    padding: 15px 20px;
+  }
+  .type-1327 .nav-pills > li + li,
+  .type-1327 .nav-pills > li {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.type-1327 ul {
+  margin: 0;
+  padding: 0;
+}
+.type-1327 .content-menu li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 0.5em;
+}
+.type-1327 .img {
+  width: 7%;
+  float: left;
+}
+.type-1327 .comment {
+  width: 93%;
+  float: left;
+  margin-bottom: 0.7em;
+}
+.type-1327 .img img {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 50px;
+  float: left;
+  margin: 0 1.5em 0.5em 0;
+  position: static;
+}

@@ -1,0 +1,42 @@
+.type-1324 .page_content_wrap {
+  padding: 2.1428em 0;
+}
+.type-1324 .page_content_wrap .content_wrap {
+  margin: 0 auto;
+}
+.type-1324 .page_content_wrap .content_wrap .font_size_3_571em {
+  font-size: 3.571em;
+}
+.type-1324 .page_content_wrap .content_wrap h2 {
+  font-size: 3.571em;
+  text-align: center;
+}
+.type-1324 .page_content_wrap .shop_banner {
+  background-image: url(../images/shop_bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px !important;
+}
+.type-1324 .page_content_wrap .shop_banner .sc_title {
+  font-size: 2.5em !important;
+}
+.type-1324 .page_content_wrap .shop_banner .sc_section_inner {
+  text-align: center;
+}
+.type-1324 .page_content_wrap .shop_banner .sc_section_inner h3 {
+  color: #fff;
+}
+.type-1324 .page_content_wrap .shop_banner .sc_section_inner p {
+  text-align: center;
+  color: #fff;
+}
+.type-1324 .page_content_wrap .shop_banner .text_uppercase {
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+.type-1324 .margin_top_small {
+  margin-top: 20px !important;
+}
+.type-1324 aside {
+  display: block;
+}
