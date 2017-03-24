@@ -26,9 +26,9 @@
                                 <p>WE OFFER EXCLUSIVE DEALS FOR VARIOUS SPORT PRODUCTS OF PREMIUM QUALITY THAT HAS BEEN TESTED AND PROVED BY YEARS AND EXPERIENCED PLAYERS</p>
 
                             </div>
-                            <div class=" margin_top_small aligncenter">
+                            <div class=" margin_top_small">
                                 <div>
-                                    <div class="cube flip-to-top">
+                                    <div class="cube ">
                                         <a href="#">
                                             <div class="default-state">
                                                 <span>Learn more</span>

@@ -1,4 +1,8 @@
 .type-1327 {
+    @color: #fff;
+    @t-align: center;
+    @bcl: #96bd42;
+    @size: 10px;
     #respond {
         position: static;
         margin: 0;
@@ -7,7 +11,7 @@
         background: 0 0;
         border: 0;
         input{
-            text-align: center;
+            text-align: @t-align;
             padding: 1.286em 2.500em;
             font-size: 1em;
             line-height: 1.3em;
@@ -15,11 +19,11 @@
             margin: 0;
             border: none;
             border-radius: 0;
-            color: #fff;
-            margin-top: 10px;
+            color: @color;
+            margin-top: @size;
         }
         p {
-            margin: 0 0 10px;
+            margin: 0 0 @size;
         }
         textarea {
             height: 150px;
@@ -30,7 +34,7 @@
     }
 
     .submit{
-        background-color: #96bd42;
+        background-color: @bcl;
     }
 
 
@@ -50,7 +54,7 @@
         transition: all 0.3s ease 0s;
     }
     a{
-        color: #96bd42;
+        color: @bcl;
         text-decoration:none;
     }
     img {
@@ -79,18 +83,18 @@
         font-size:1em;
         font-weight:600;
         padding: 15px 30px;
-        background: #fff;
+        background: @color;
     }
     .nav > li > a:hover {
-        background: #fff;
-        color:#96bd42;
+        background: @color;
+        color: @bcl;
     }
     .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-        color: #fff;
-        background-color: #96bd42;
+        color: @color;
+        background-color: @bcl;
     }
     .nav-pills > li + li {
-        margin-left: 10px;
+        margin-left: @size;
     }
     .nav-pills > li > a {
         border-radius: 0px;
@@ -119,11 +123,11 @@
 
     .ab{
         color: #7ca813;
-        font-size: 10px;
+        font-size: @size;
     }
     .ac{
         color: #d3ced2;
-        font-size: 10px;
+        font-size: @size;
     }
     .comment-text p{
         color:#707276;
@@ -166,8 +170,8 @@
         }
         .nav-pills > li + li, .nav-pills > li {
             margin-left:0;
-            margin-right:10px;
-            margin-bottom:10px;
+            margin-right:@size;
+            margin-bottom:@size;
         }
         .comment {
             width: 82%;
@@ -176,7 +180,7 @@
             width:18%;
         }
         .nav > li > a {
-            padding: 15px 10px;
+            padding: 15px @size;
         }
 
     }
@@ -190,7 +194,7 @@
         }
         .nav-pills > li + li, .nav-pills > li {
             margin-left:0;
-            margin-bottom:10px;
+            margin-bottom:@size;
         }
         .comment {
             width: 80%;
@@ -230,7 +234,7 @@
         background-color: #f6f7f3 !important;
     }
     .wrapper{
-        padding-left: 70px;
+        padding-left: 90px;
         padding-right: 70px;
     }
 
@@ -254,10 +258,10 @@
             padding: 8px;
             line-height: 1.5;
             color: #1a3150;
-            text-align:center;
+            text-align: @t-align;
         }
         td p {
-            color: #96bd42;
+            color: @bcl;
             font-weight: 600;
             font-style: italic;
         }
@@ -278,7 +282,7 @@
         }
         .nav-pills > li + li, .nav-pills > li {
             margin-left:0;
-            margin-bottom:10px;
+            margin-bottom:@size;
         }
         .comment {
             width: 88%;
@@ -291,8 +295,8 @@
         }
         .nav-pills > li + li, .nav-pills > li {
             margin-left:0;
-            margin-right:10px;
-            margin-bottom:10px;
+            margin-right:@size;
+            margin-bottom:@size;
         }
 
     }

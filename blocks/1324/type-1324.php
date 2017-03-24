@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <?php
     if (!class_exists('lessc')) {
@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="shop">
-                            <h1>Pro Shop</h1>
+                            <h1 style="margin-left: 15px;">Pro Shop</h1>
                             <hr>
                             <img class="img-responsive" src="images/shop_bg1.jpg" alt=""/>
                             <div class="col-md-6 " style="position: absolute; top: 35%; left: 8%;">
@@ -30,9 +30,9 @@
                                     <p>PREMIUM QUALITY SHOES TO FIT THE LEVEL FROM BEGINNERS TO PROFRSSIONALS</p>
 
                                 </div>
-                                <div class=" margin_top_small aligncenter">
+                                <div class=" margin_top_small ">
                                     <div>
-                                        <div class="cube flip-to-top">
+                                        <div class="cube ">
                                             <a href="#">
                                                 <div class="default-state">
                                                     <span>Learn more</span>

@@ -3,6 +3,7 @@
   font-size: 3.214em;
   margin-top: 1.556em;
   margin-bottom: 0.9em;
+  margin-left: 15px;
 }
 .type-1328 .post_content {
   padding-left: 33px;
@@ -19,7 +20,7 @@
 .type-1328 .hover_icon:before {
   font-family: 'fontello';
   font-size: 1.2em;
-  color: #ffffff;
+  color: #fff;
   background-color: #96bd42;
   cursor: pointer;
   position: absolute;
@@ -109,7 +110,7 @@
 }
 .type-1328 .onsale {
   background-color: #e13e30;
-  color: #ffffff;
+  color: #fff;
   width: 4.8em;
   padding: 8px;
 }

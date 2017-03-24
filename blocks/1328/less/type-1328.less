@@ -1,9 +1,13 @@
 .type-1328 {
+    @color: #fff;
+    @t-align: center;
+    @bcl: #96bd42;
     .related.products h2 {
-        text-align: center;
+        text-align: @t-align;
         font-size: 3.214em;
         margin-top: 1.556em;
         margin-bottom: 0.9em;
+        margin-left: 15px;
     }
     .post_content {
         padding-left: 33px;
@@ -25,8 +29,8 @@
     .hover_icon:before {
         font-family: 'fontello';
         font-size: 1.2em;
-        color: #ffffff;
-        background-color: #96bd42;
+        color: @color;
+        background-color: @bcl;
         cursor: pointer;
         position: absolute;
         left: 50%;
@@ -45,7 +49,7 @@
 
 
     h3 {
-        text-align: center;
+        text-align: @t-align;
         margin: 18px;
     } 
 
@@ -63,7 +67,7 @@
             border-bottom-style: solid;
             width: 0.511em;
             margin: 0.422em auto 0 auto;
-            border-bottom-color: #96bd42;
+            border-bottom-color: @bcl;
         }
         ul li,  ul.products li {
             list-style: none;
@@ -104,13 +108,13 @@
 
     }
     .amount {
-        color: #96bd42;
+        color: @bcl;
         margin-left: 28px;
 
     }
 
     ul.products li.product:hover .post_content {
-        border-bottom-color: #96bd42;
+        border-bottom-color: @bcl;
     }
 
     .post_content {
@@ -133,7 +137,7 @@
     }
     .onsale {
         background-color: #e13e30;
-        color: #ffffff;
+        color: @color;
         width: 4.8em;
         padding: 8px;
     }

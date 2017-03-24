@@ -5,19 +5,12 @@
 .type-1322 a {
   color: #96bd42;
 }
-.type-1322 a,
-.type-1322 button {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -ms-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 .type-1322 .sc_matches_next .sc_item_title .sc_matches_next {
   color: #fff;
 }
 .type-1322 .theme_background_1 {
   background-color: #f6f7f3 !important;
+  margin-left: 30px;
 }
 .type-1322 .theme_background_1 .sc_matches .sc_item_title {
   font-size: 2.4em;

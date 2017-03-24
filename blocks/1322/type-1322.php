@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="images/favicon.ico">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700"  type="text/css">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
         <?php
@@ -92,7 +91,7 @@
                                                         <img alt="player-4.jpg" src="images/player-4-420x420.jpg"> </a>
                                                 </div>
                                                 <div class="player_name">
-                                                    <a href="player-profile.html">Linda Carter</a>
+                                                    <a href="#">Linda Carter</a>
                                                 </div>
                                             </div>
                                             <div class="match_info">
@@ -105,115 +104,17 @@
                                             <div class="player">
                                                 <div class="player_country">AU</div>
                                                 <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Lisa Brooks">
+                                                    <a class="hover_icon hover_icon_view" href="#" title="Lisa Brooks">
                                                         <img alt="image-21.jpg" src="images/image-21-420x420.jpg">
                                                     </a>
                                                 </div>
                                                 <div class="player_name">
-                                                    <a href="player-profile.html">Lisa Brooks</a>
+                                                    <a href="3">Lisa Brooks</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="sc_match">
-                                        <div class="match_block">
-                                            <div class="player">
-                                                <div class="player_country">US</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Steven Ward">
-                                                        <img alt="player-3.jpg" src="images/player-3-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Steven Ward</a>
-                                                </div>
-                                            </div>
-                                            <div class="match_info">
-                                                <div class="match_date">30 Apr 12:00</div>
-                                                <div class="match_score">6-0</div>
-                                                <div class="match_category">
-                                                    <a href="#">Australian Open</a>
-                                                </div>
-                                            </div>
-                                            <div class="player">
-                                                <div class="player_country">MX</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Paul Diaz">
-                                                        <img alt="player-2.jpg" src="images/player-2-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Paul Diaz</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="sc_match">
-                                        <div class="match_block">
-                                            <div class="player">
-                                                <div class="player_country">GB</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Mary Wilson">
-                                                        <img alt="team-1.jpg" src="images/team-1-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Mary Wilson</a>
-                                                </div>
-                                            </div>
-                                            <div class="match_info">
-                                                <div class="match_date">28 Apr 11:00</div>
-                                                <div class="match_score">3-6</div>
-                                                <div class="match_category">
-                                                    <a href="#">Astana Challenger (hard)</a>
-                                                </div>
-                                            </div>
-                                            <div class="player">
-                                                <div class="player_country">PL</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Helen Price">
-                                                        <img alt="player-5.jpg" src="images/player-5-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Helen Price</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="sc_match">
-                                        <div class="match_block">
-                                            <div class="player">
-                                                <div class="player_country">PL</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Helen Price">
-                                                        <img alt="player-5.jpg" src="images/player-5-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Helen Price</a>
-                                                </div>
-                                            </div>
-                                            <div class="match_info">
-                                                <div class="match_date">27 Apr 10:00</div>
-                                                <div class="match_score">6-3</div>
-                                                <div class="match_category">
-                                                    <a href="#">ITF Sacramento Women (hard)</a>
-                                                </div>
-                                            </div>
-                                            <div class="player">
-                                                <div class="player_country">US</div>
-                                                <div>
-                                                    <a class="hover_icon hover_icon_view" href="player-profile.html" title="Linda Carter">
-                                                        <img alt="player-4.jpg" src="images/player-4-420x420.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="player_name">
-                                                    <a href="player-profile.html">Linda Carter</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                             <!-- /Current matches block -->

@@ -1,17 +1,21 @@
 .type-1326{
+    @color: #fff;
+    @t-align: center;
+    @bcl: #1a3150;
+    
     .padding_bottom_7_143em_imp {
         padding-bottom: 7.143em !important;
         background-color: #f6f7f3 !important;
-        padding-right: 32px;
+        padding-right: 13px;
         h3{
-            color: #1a3150;
+            color: @bcl;
             line-height: 125%;
         }
         .sc_title {
             overflow: hidden;
             position: relative;
             padding-bottom: 2px;
-            text-align: center;
+            text-align: @t-align;
             margin-left: 31px;
             margin-right: auto;
             margin-bottom: 0 !important;
@@ -31,32 +35,32 @@
             .sc_price_block{
                 transition: 0.5s;
                 color: #aab2bd;
-                background-color: #ffffff;
+                background-color: @color;
                 .sc_price_block_title {
-                    color: #ffffff;
-                    background-color: #1a3150;
-                    text-align: center;
+                    color: @color;
+                    background-color: @bcl;
+                    text-align: @t-align;
                     font-size: 1.214em;
                     font-weight: 700;
                     line-height: 3.235em;
                     min-height: 3.235em;
                 }
                 .sc_price_block_money {
-                    background-color: #ffffff;
-                    text-align: center;
+                    background-color: @color;
+                    text-align: @t-align;
                     line-height: 7.857em;
                     height: 7.857em;
                     overflow: hidden;
                     .sc_price {
                         .sc_price_currency {
-                            color: #1a3150;
+                            color: @bcl;
                         }
                         .sc_price_money {
 
-                            color: #1a3150;
+                            color: @bcl;
                         }
                         .sc_price_period {
-                            color: #1a3150;
+                            color: @bcl;
                         }
                         .sc_price_currency {
                             font-weight: 900;
@@ -75,7 +79,7 @@
                     }
                 }
                 .sc_price_block_description {
-                    text-align: center;
+                    text-align: @t-align;
                     font-size: 1em;
                     line-height: 1.3em;
                     height: 5.2857em;
@@ -85,7 +89,7 @@
                 }
                 .sc_price_block_link {
                     height: 7.4em;
-                    text-align: center;
+                    text-align: @t-align;
                     .sc_button_size_large {
                         .default-state {
                             display: block;
@@ -102,7 +106,7 @@
                         .cube {
                             height: 55px;
                             display: block;
-                            text-align: center;
+                            text-align: @t-align;
                             margin: 0 auto;
                             transition: all 250ms ease;
                             transform-style: preserve-3d;
@@ -111,7 +115,7 @@
                                 transform: rotateX(90deg) translateZ(75px);
                                 line-height: 55px;
                                 padding: 0 35px;
-                                color: #ffffff;
+                                color: @color;
                             }
                         }
 
@@ -125,11 +129,11 @@
                 .sc_button {
                     .default-state {
                         background-color: #1ca9eb;
-                        color: #ffffff;
+                        color: @color;
                     }
                     .active-state {
                         background-color: #1295d2;
-                        color: #ffffff;
+                        color: @color;
                     }
                 }
             }
@@ -154,7 +158,7 @@
     }
     input[type="submit"], input[type="button"], button, .sc_button {
         display: inline-block;
-        text-align: center;
+        text-align: @t-align;
         font-weight: 700;
         font-size: 1em;
     }
@@ -162,6 +166,6 @@
 
 
     input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .sc_button.sc_button_style_filled:hover {
-        color: #ffffff;
+        color: @color;
     }
 }

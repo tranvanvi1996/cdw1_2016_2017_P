@@ -1,4 +1,7 @@
 .type-1329 {
+    @color: #fff;
+    @t-align: center;
+    @bcl: #96bd42;
     .page_content_wrap {
         padding: 2.1428em 0;
         .product {
@@ -19,7 +22,7 @@
                 overflow: hidden;
                 font-size: 1em;
                 font-weight: bold;
-                text-align: center;
+                text-align: @t-align;
                 line-height: 2.7em;
                 text-transform: uppercase;
                 border-radius: 0;
@@ -33,8 +36,8 @@
             .hover_icon:before {
                 font-family: 'fontello';
                 font-size: 1.2em;
-                color: #ffffff;
-                background-color: #96bd42;
+                color: @color;
+                background-color: @bcl;
                 cursor: pointer;
                 position: absolute;
                 left: 50%;
@@ -53,7 +56,7 @@
             .hover_icon_view:before {
                 content: '\e843';
                 font-size: 1.2em;
-                color: #ffffff;
+                color: @color;
                 padding: 12px 20px;
 
             }
@@ -84,7 +87,7 @@
         .hell1{
             margin-top: 15px;
             .amount {
-                color: #96bd42;
+                color: @bcl;
                 font-size: 25px;
 
             }
@@ -106,12 +109,12 @@
             background-color: #7ca813;
         }
         button.button.alt {
-            background-color: #96BD42;
-            color: #fff;
+            background-color: @bcl;
+            color: @color;
         }
         .button {
             line-height: 1.3em;
-            color: #ffffff;
+            color: @color;
             font-size: 1em;
             display: inline-block;
             overflow: visible;
@@ -121,7 +124,7 @@
         }
 
         button.single_add_to_cart_button.button.alt {
-            color: #ffffff;
+            color: @color;
             background-color: #7ca813;
             padding: 0.8em 2.5em;
 
@@ -150,7 +153,7 @@
             width: 20%;
             height: 45px;
             background-color: #f6f7f3;
-            text-align: center;
+            text-align: @t-align;
             border: 2px solid transparent;
             border-radius: 0;
             color: #aab2bd;
@@ -162,7 +165,7 @@
         }
         a{
             transition: all 0.3s ease 0s;
-            color: #96bd42;
+            color: @bcl;
             text-decoration: none;
             background: transparent;
         }
@@ -172,6 +175,7 @@
     }
     @media (max-width: 468px) {
         img {
+            
             margin-left: 27px !important;
         }
         .page_content_wrap .product span.onsale {
