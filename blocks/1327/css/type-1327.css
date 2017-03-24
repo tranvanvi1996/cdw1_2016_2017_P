@@ -18,11 +18,16 @@
   color: #fff;
   margin-top: 10px;
 }
-.type-1327 .submit {
-  background-color: #96bd42;
-}
 .type-1327 #respond p {
   margin: 0 0 10px;
+}
+.type-1327 #respond textarea {
+  height: 150px;
+  width: 100%;
+  overflow: auto;
+}
+.type-1327 .submit {
+  background-color: #96bd42;
 }
 .type-1327 h1,
 .type-1327 h2,
@@ -181,7 +186,7 @@
 }
 @media (max-width: 479px) {
   .type-1327 .container {
-    width: 280px;
+    width: 275px;
   }
   .type-1327 .wrapper {
     padding-left: 0px;
@@ -198,11 +203,6 @@
   .type-1327 .img {
     width: 20%;
   }
-}
-.type-1327 #respond textarea {
-  height: 150px;
-  width: 100%;
-  overflow: auto;
 }
 .type-1327 h1,
 .type-1327 h2,
@@ -259,10 +259,6 @@
   border-bottom: 1px dotted rgba(0,0,0,0.1);
   width: 100%;
 }
-.type-1327 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 .type-1327 table.shop_attributes th {
   width: 150px;
   font-weight: 700;
@@ -275,6 +271,10 @@
   color: #96bd42;
   font-weight: 600;
   font-style: italic;
+}
+.type-1327 table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 @media (max-width: 767px) and (min-width: 640px) {
   .type-1327 .wrapper {
