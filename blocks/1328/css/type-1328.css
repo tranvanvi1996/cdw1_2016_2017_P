@@ -45,22 +45,35 @@
   color: #1a3150;
 }
 .type-1328 .products h2:after {
-  border-bottom-color: #96bd42;
-}
-.type-1328 .products h2:after {
   content: "";
   display: block;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   width: 0.511em;
   margin: 0.422em auto 0 auto;
+  border-bottom-color: #96bd42;
 }
 .type-1328 .products ul li,
-.type-1328 ul.products li {
+.type-1328 .products ul.products li {
   list-style: none;
+  margin-left: -26px;
 }
-.type-1328 .product a {
+.type-1328 .products a {
   text-decoration: none;
+}
+.type-1328 .products li.product .post_content {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+}
+.type-1328 .products li.product h3 {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 0.8em;
+  padding: 0;
+}
+.type-1328 .products h3 a {
+  color: #262b32;
 }
 .type-1328 a:hover {
   color: #7ca813;
@@ -79,44 +92,37 @@
 .type-1328 ul.products li.product:hover .post_content {
   border-bottom-color: #96bd42;
 }
-.type-1328 .products li.product .post_content {
-  padding-left: 2.3em;
-  padding-right: 2.3em;
-}
 .type-1328 .post_content {
   padding: 2.857em;
   border-bottom: 3px solid transparent;
   text-align: left;
-}
-.type-1328 .post_content {
   background-color: #f6f7f3;
-}
-.type-1328 .products li.product h3 {
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.4em;
-  margin-bottom: 0.8em;
-  padding: 0;
 }
 .type-1328 .add_to_cart_button {
   background-color: #1a3150;
   padding: 1.286em 2.500em;
   line-height: 1.3em;
 }
-.type-1328 .product h3 a {
-  color: #262b32;
-}
 .type-1328 a.button.product_type_simple.add_to_cart_button {
-  margin-left: 27px;
+  margin-left: 37px;
   color: aliceblue;
 }
 .type-1328 .onsale {
   background-color: #e13e30;
-}
-.type-1328 .onsale {
   color: #ffffff;
   width: 4.8em;
+  padding: 8px;
 }
-.type-1328 .amount {
-  color: #96bd42;
+@media (max-width: 468px) {
+  .type-1328 .add_to_cart_button {
+    padding: 1.286em 0.5em !important;
+  }
+  .type-1328 img {
+    margin-left: -27px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .type-1328 .add_to_cart_button {
+    padding: 1.286em 1em;
+  }
 }
