@@ -1,0 +1,189 @@
+.type-1306 {
+    @color1: #fff;
+    @size1: 13px;
+    a {
+        text-decoration: none;
+    }
+    .bt-newletter {
+        background-color: @color1;
+        .newletter {
+            background: url(../images/bg_newsletter.png) no-repeat left center;
+            overflow: hidden;
+            padding: 23px 0 23px 295px;
+            .title-newsletter h3 {
+                font-size: 36px;
+                margin-bottom: 0;
+                font-weight: 700;
+                line-height: 1.2em;
+                margin-top: 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .text-title {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .bt-newletter .newletter .newletter-content {
+        padding-top: 14px;
+        padding-right: 0;
+        .frm_subscribe {
+            position: relative;
+        }
+    }
+    table {
+        background-color: transparent;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    td,
+    th {
+        padding: 0;
+    }
+    .bt-newletter .newletter .newletter-content .form-control {
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        color: #000;
+        font-size: @size1;
+        height: 50px;
+        margin: 0;
+        padding: 0 80px 0 23px;
+        width: 100%;
+    }
+    .form-control {
+        background-color: @color1;
+        background-image: none;
+        border: 1px solid #ebebeb;
+        border-radius: 4px;
+        color: #646464;
+        display: block;
+        font-family: "Lato", sans-serif;
+        font-size: @size1;
+        height: 43px;
+        margin-bottom: 14px;
+        margin-top: 6px;
+        padding: 7px 8px 9px;
+        vertical-align: middle;
+        width: 43%;
+        box-shadow: none !important;
+    }
+    .bt-newletter .newletter .newletter-content a.btn {
+        background-color: #00aeef;
+        color: @color1;
+        background: #00aeef;
+        border-radius: 4px;
+        color: @color1;
+        font-size: 0;
+        line-height: 50px;
+        padding: 0 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 50px;
+        border: none;
+    }
+    .btn {
+        transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #000;
+        border-radius: 4px;
+        background-color: @color1;
+        color: #000;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 10px 20
+    }
+    .bt-newletter .newletter .newletter-content a.btn:before {
+        content: "\f1d8";
+        font: 20px "FontAwesome";
+        line-height: 50px;
+    }
+    .btn:hover,
+        .bt-newletter .newletter .newletter-content a.btn:hover {
+        color: @color1;
+        background-color: #000000;
+    }
+    /*---------------------------------Footer----------------------------------*/
+    footer {
+        background-color: #3e3e3e;
+        padding-top: 38px;
+        padding-left: 0;
+    }
+    footer_column {
+        padding-left: 0;
+    }
+    footer h3 {
+        color: @color1;
+        font-size: 20px;
+        margin-bottom: @size1;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 1.2em;
+        margin-top: 0;
+        span {
+            display: block;
+            margin-top: 19px;
+        }
+    }
+    footer ul {
+        margin: 0px;
+        list-style-type: none;
+        padding: 0;
+        li {
+            margin: 0;
+            padding-left: 0;
+        }
+    }
+    footer a {
+        color: #ccc;
+        font-size: @size1;
+        line-height: 30px;
+    }
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @media only screen and (max-width: 767px) {
+        .bt-newletter .newletter .title-newsletter h3 {
+            font-size: 36px;
+        }
+        .bt-newletter .newletter {
+            background-position: center top;
+            padding: 110px 10px 25px;
+            .title-newsletter {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .newletter-content {
+                padding-left: 0;
+                padding-top: 0;
+                padding-right: 0;
+            }
+        }
+    }
+    @media only screen and (max-width: 479px) {
+        .bt-newletter .newletter .title-newsletter h3 {
+            font-size: 28px;
+        }
+    }
+    @media only screen and (max-width: 1023px) and (min-width: 768px) {
+        .bt-newletter .title-newsletter,
+        .bt-newletter .newletter-content {
+            width: 100%;
+        }
+        footer h3 span {
+            font-size: 19px;
+        }
+    }
+    @media only screen and (max-width: 1199px) and (min-width: 1024px) {
+        .bt-newletter .newletter .title-newsletter h3 {
+            font-size: 32px;
+        }
+    }
+}

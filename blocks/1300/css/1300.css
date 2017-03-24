@@ -1,0 +1,224 @@
+.type-1300 a {
+  text-decoration: none;
+}
+.type-1300 #content {
+  padding-right: 0;
+  padding-left: 15px;
+  min-height: 300px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.type-1300 .content_bg {
+  margin-bottom: 20px;
+  width: 99.6%;
+}
+.type-1300 .category-info h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  color: #000;
+}
+.type-1300 .info_detail p {
+  font-size: 15px;
+  line-height: 1.55em;
+  font-weight: 400;
+}
+.type-1300 .product-filter {
+  margin-bottom: 30px;
+  float: left;
+  width: 98.7%;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.type-1300 .product-filter .sort {
+  border: 1px solid #e5e5e5;
+  padding: 5px 14px;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+.type-1300 .product-filter label.control-label {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+}
+.type-1300 .product-filter label.control-label label {
+  margin: 0;
+}
+.type-1300 #input-sort,
+.type-1300 #input-limit {
+  -moz-appearance: none;
+  background-color: #f4f4f4;
+  color: #818181;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 40px;
+  margin: 0;
+  outline: medium none;
+  width: 150px;
+}
+.type-1300 .form-control {
+  background-image: none;
+  border: 1px solid #ebebeb;
+  color: #646464;
+  display: block;
+  padding: 7px 8px 9px;
+  vertical-align: middle;
+  box-shadow: none !important;
+  line-height: 1.42857143;
+  color: #555;
+}
+.type-1300 .product-filter .bootstrap-select.btn-group:not(.input-group-btn) {
+  position: static;
+}
+.type-1300 .bootstrap-select.btn-group:not(.input-group-btn) {
+  float: none;
+  display: inline-block;
+  margin-left: 0;
+}
+.type-1300 .product-filter .bootstrap-select {
+  width: auto;
+  height: auto;
+  background: none;
+  box-shadow: none;
+  margin: -2px 0 0;
+}
+.type-1300 .bootstrap-select.form-control {
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+}
+.type-1300 product-filter .sort .bootstrap-select > .btn1 {
+  height: auto;
+  font-size: 15px;
+  color: #000;
+  box-shadow: none;
+  position: relative;
+  padding: 0 8px;
+  background: none;
+  border: medium none;
+}
+.type-1300 .bootstrap-select .filter-option {
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.type-1300 .product-filter .sort .bootstrap-select > .btn1 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+}
+.type-1300 .product-filter .compare-total {
+  float: left;
+  margin-right: 20px;
+  margin-top: 0;
+}
+.type-1300 .product-filter .compare-total a {
+  color: #000;
+  font-size: 15px;
+  border: 1px solid #f1f1f1;
+  display: inline-block;
+  padding: 5px 14px 5px;
+}
+.type-1300 .btn-group .dropdown-menu {
+  min-width: 100%;
+  z-index: 2000;
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.type-1300 .btn-group .dropdown-menu li > a {
+  cursor: pointer;
+  outline: none !important;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #8c8c8c;
+}
+.type-1300 .btn-group .dropdown-menu li a i.check-mark {
+  display: none;
+}
+.type-1300 .product-filter .limit {
+  border: 1px solid #e5e5e5;
+  padding: 5px 14px;
+  position: relative;
+  float: right;
+  margin-left: 20px;
+}
+.type-1300 .product-filter label.control-label {
+  display: inline-block;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+}
+.type-1300 #input-limit {
+  background-color: #f4f4f4;
+  color: #818181;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  margin: 0;
+  outline: medium none;
+  width: 150px;
+}
+.type-1300 .product-filter .limit .bootstrap-select > .btn1 {
+  height: auto;
+  font-size: 15px;
+  color: #000;
+  box-shadow: none;
+  position: relative;
+  padding: 0 8px;
+  background: none;
+  border: medium none;
+}
+.type-1300 .product-filter > .btn-group {
+  float: right;
+  margin-top: 0;
+  vertical-align: top;
+}
+.type-1300 .btn-group {
+  position: relative;
+  display: inline-block;
+}
+.type-1300 #list-view:hover,
+.type-1300 #list-view.active,
+.type-1300 #grid-view:hover,
+.type-1300 #grid-view.active {
+  color: #00aeef;
+  border-color: #00aeef;
+}
+.type-1300 #list-view,
+.type-1300 #grid-view {
+  border: 1px solid transparent;
+  display: inline-block;
+  height: 32px;
+  margin-top: 0;
+  padding: 0;
+  text-align: cent;
+  vertical-align: top;
+  width: 32px;
+  background: none;
+  color: #000;
+}
+.type-1300 #list-view i,
+.type-1300 #grid-view i {
+  font-size: 18px;
+  line-height: 32px;
+}
+.type-1300 .fa-th:before {
+  content: "\f00a";
+}

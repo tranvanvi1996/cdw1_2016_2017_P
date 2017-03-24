@@ -1,0 +1,64 @@
+.type-1302 a {
+  text-decoration: none;
+}
+.type-1302 h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.type-1302 .bt-banner-wrap {
+  margin-bottom: 78px;
+}
+.type-1302 .bt-banner-wrap .banner-image {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.type-1302 .banner-home-big .banner-image span {
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -102px;
+}
+.type-1302 .bt-banner-wrap .banner-image span {
+  position: absolute;
+}
+.type-1302 .bt-banner-wrap .banner-image img {
+  transition: all 0.5s linear;
+}
+.type-1302 .banner-home-big .banner-image:hover span img {
+  transform: scale(0.85);
+}
+.type-1302 .banner-home-big .banner-image:hover > img {
+  transform: scale(1.08);
+}
+.type-1302 img {
+  max-width: 100%;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px) {
+  .type-1302 .bt-banner-wrap .banner-image span img {
+    width: 30%;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 599px) and (min-width: 465px) {
+  .type-1302 .bt-banner-wrap .banner-image span img {
+    width: 30%;
+    margin-top: 55px;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .type-1302 .bt-banner-wrap .banner-image span img {
+    width: 30%;
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 349px) {
+  .type-1302 .bt-banner-wrap .banner-image span img {
+    width: 30%;
+    margin-top: 80px;
+  }
+}
