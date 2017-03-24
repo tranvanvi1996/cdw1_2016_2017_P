@@ -1,3 +1,6 @@
+.type-1309 .sbSelector select {
+  width: 90%;
+}
 .type-1309 #logo {
   float: left;
   margin: 0;
@@ -160,17 +163,6 @@
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-.type-1309 #boss-search .input_cat a.sbToggle {
-  position: absolute;
-  margin-top: -2px;
-  right: 12px;
-  top: 50%;
-  width: 0;
-  height: 0;
-  border-top: 6px solid #00aeef;
-  border-left: 6px solid transparent !important;
-  border-right: 6px solid transparent !important;
 }
 .type-1309 #boss-search .input_cat a.sbSelector {
   color: #00aeef;

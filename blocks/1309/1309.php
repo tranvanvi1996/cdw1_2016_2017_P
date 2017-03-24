@@ -25,7 +25,6 @@
     <body>
         <div class="type-1309">
             <nav>
-                <!-- header button -->
                 <div class="b_header_bottom">
                     <div class="container">
                         <div class="row">
@@ -54,17 +53,17 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div id="boss-search" class="  columns  ">
+                            <div id="boss-search" class="columns">
                                 <div class="input_cat">
-                                    <select name="filter_category_id" id="" sb="60401639" style="display: none;">
-                                        <option value="0" selected="selected">All Categories</option>
-                                    </select>
                                     <div id="" class="sbHolder">
-                                        <a id="" href="#" class="sbToggle"></a>
-                                        <a id="" href="#" class="sbSelector">All Categories</a>
-                                        <ul id="" class=" " style="display: none;">
-                                            <li><a href="#0" rel="0" class="  ">All Categories</a></li>
-                                        </ul>
+                                        <a id="" href="#" class="sbSelector">
+                                            <select name="filter_category_id" sb="60401639" style="border:none;">
+                                                <option>All Categories</option>
+                                                <option  >All Categories 2</option>
+                                                <option >All Categories 3</option>
+                                                <option >All Categories 4</option>
+                                            </select>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="search-form">
@@ -81,9 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- hết header button-->
             </nav>
-            <!--menubar-->
             <div class="menubar">
                 <div class="container" style="background:transparent;">
                     <div class="row">
@@ -115,7 +112,6 @@
                 </div>
             </div>
         </div>
-
     </body>
 
 </html>
