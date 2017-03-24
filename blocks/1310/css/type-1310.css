@@ -1,0 +1,76 @@
+.type-1310 .wapper1 {
+  background-color: #1a3150;
+  height: 46px;
+}
+.type-1310 .wapper1 .top_panel_middle {
+  background-color: #fff;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  width: 100%;
+  display: block;
+  left: 0;
+  z-index: 100000;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap {
+  margin: auto;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .contact_logo {
+  margin-top: 2.3em;
+  float: left;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header {
+  margin-top: 2.0em;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .dropdown-menu>li>a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #1a3150 !important;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .dropdown-menu>li>a {
+  color: #7a7f87;
+  font-size: 0.786em;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .dropdown-menu {
+  background: #1a3150 !important;
+  color: #fff !important;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .top_panel_top_socials {
+  float: right;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .navbar-nav li a {
+  color: #7a7f87;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 0.786em;
+  padding: 16px 13px !important;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .header .nav>li>a:hover {
+  background: #fff !important;
+  color: black;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .icon {
+  float: right;
+  margin-top: 2.0em;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .icon .fa-twitter {
+  padding: 10px;
+  background: #229EE8;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .icon .fa-facebook {
+  padding: 10px;
+  background: #3B5998;
+}
+.type-1310 .wapper1 .top_panel_middle .content_wrap .icon .fa-google-plus {
+  padding: 10px;
+  background: #EA4235;
+}
+@media (max-width: 1000px) {
+  .type-1310 .wapper1 .top_panel_middle .content_wrap .icon {
+    float: none;
+  }
+}
+@media (max-width: 735px) {
+  .type-1310 .wapper1 .top_panel_middle .content_wrap .icon {
+    display: none;
+  }
+}

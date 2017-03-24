@@ -1,0 +1,228 @@
+.col-xs{
+    width:25%;
+    float:left;
+}
+
+@cube-width: auto;
+@cube-height: auto;
+a{
+    text-decoration: none;
+}
+.type-1316{
+    .wrapper{
+        width: auto;
+        background-color: #f6f7f3;
+        font-family: Arial;
+        .footer-content{
+            position: relative;
+            box-sizing: border-box;
+            width: auto;
+            margin: 0;
+            .footer-text{
+                padding-right:0;
+                padding-left:0;
+                .footer-title h3{
+                    text-align:center;
+                    font-weight:600;
+                    font-size:3.5em;
+                    color:#1a3150;
+                }
+                .footer-title h4{
+                    text-align: center;
+                    color: #96bd42;
+                    font-weight: 600;
+                    font-size: 0.857em;
+                    letter-spacing: 2px;
+                    margin-bottom: 67px;
+                }
+                .footer-title .col:hover{
+                    margin-top:-10px;
+                    box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.1);
+                }
+                .footer-title .col{
+                    transition: all ease .5s;
+                    .footer-col-title{
+                        color: #ffffff;
+                        background-color: #1a3150;
+                        text-align: center;
+                        font-size: 1.214em;
+                        font-weight: 700;
+                        line-height: 3.235em;
+                        min-height: 3.235em;
+                    }
+
+                    .footer-col-money{
+                        background-color: #ffffff;
+                        text-align: center;
+                        line-height: 7.857em;
+                        height: 7.857em;
+                        overflow: hidden;
+                        .usd{
+                            font-weight: 900;
+                            font-size: 1.429em;
+                            line-height: 4.7em;
+                            vertical-align: top;
+                            color: #1a3150;
+                        }
+                        .number{
+                            font-weight: 900;
+                            font-size: 2.857em;
+                            line-height: inherit;
+                            color: #1a3150;
+                        }
+                        .text{
+                            color: #1a3150;
+                            font-weight:700;
+                        }
+                        .text1{
+                            content: '/';
+                            display: inline-block;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .footer-col-description{
+                        background-color:#fff;
+                        padding-bottom:40px;
+                        p{
+                            text-align: center;
+                            font-size: 14px;
+                            line-height: 1.3em;
+                            height: 5.2857em;
+                            padding: 0 5px;
+                            color: #aab2bd;
+                            overflow: hidden;
+                        }
+                    }
+                    .footer-col-button{
+                        background-color:#fff;
+                        margin-top:-10px;
+                        .cube {
+                            width: @cube-width;
+                            height: @cube-height;
+                            .transition(all 250ms ease);
+                            .transform-style(preserve-3d);
+                        }
+                        /* The two faces of the cube */
+                        .default-state, .active-state {
+                            height: @cube-height;
+                        }
+
+                        /* Position the faces */
+                        .default-state {
+                            .translateZ(@cube-height/2);
+                        }
+
+                        .flip-to-top .active-state {
+                            .transform(rotateX(90deg) translateZ(@cube-height*1.5));
+                        }
+                        .flip-to-bottom .active-state {
+                            .transform(rotateX(-90deg) translateZ(-50px));
+                        }
+                        .cube.flip-to-top:hover {
+                            .rotateX(-89deg);
+                        }
+                        .cube.flip-to-bottom:hover {
+                            .rotateX(89deg);
+                        }
+                        .cube {
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                        .default-state, .active-state {
+                            background: #1ca9eb;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            color: #fff;
+                            line-height: 55px;
+                            height: 55px;
+                            margin-left:42px;
+                            margin-right:42px;
+
+                        }
+                        .cube:hover .default-state {
+                            background: darken(#1ca9eb, 7%);
+                        }
+                        .active-state {
+                            background: darken(#1295d2, 7%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) and (min-width: 480px){
+        .sc_googlemap_content {
+            position: static;
+            width: auto;
+        }
+        .col-xs{
+            width:50%!important;
+            float:left!important;
+        }
+        .col{
+            margin-bottom:20px;
+        }
+        .default-state, .active-state {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .footer-wrapper ul li a{
+            font-size:12px!important;
+        }
+        .description{
+            font-size:10px!important;
+        }
+        .widget-text p {
+            font-size: 12px;
+        }
+        .post-content {
+            font-size:8px!important;
+        }
+    }	    
+    @media (max-width: 479px){
+        .container {
+            max-width:280px;
+        }
+        .col{
+            margin-bottom:20px;
+        }
+        .col-xs{
+            width:100%!important;
+            float:none!important;
+        }
+        .footer-wrapper ul li a{
+            font-size:12px!important;
+        }
+        .description{
+            font-size:13px!important;
+        }
+        .widget-text p {
+            font-size: 12px;
+        }
+        .post-content {
+            font-size:8px!important;
+        }
+    }
+    @media (max-width: 959px) and (min-width: 768px){
+        .sc_googlemap_content {
+            position: static;
+            width: auto;
+        }
+        .footer-wrapper ul li a{
+            font-size:14px!important;
+        }
+        .description{
+            font-size:13px!important;
+            padding-top: 10px;
+        }
+        .widget-text p {
+            font-size: 12px;
+        }
+        .post-content{
+            font-size:10px!important;
+            margin-left: 0px!important;
+            margin-top: 0px!important;
+        }
+    }
+}

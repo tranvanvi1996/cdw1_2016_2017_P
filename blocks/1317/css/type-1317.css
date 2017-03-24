@@ -1,0 +1,129 @@
+a {
+  color: #7CA813;
+}
+@font-face {
+  font-family: 'myFont';
+  src: url('fontello5973.ttf');
+}
+.type-1317 .content_wrap-2 {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+  background: #f6f7f3;
+}
+.type-1317 .content_wrap-2 .wrapper {
+  padding-left: 25px;
+  padding-right: 19px;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs {
+  float: right;
+  padding: 1.6667em 16px 2.5em;
+  font-size: 0.929em;
+  line-height: 1.5em;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs a.breadcrumbs_item {
+  color: #1a3150;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs .breadcrumbs_delimiter {
+  display: inline-block;
+  position: relative;
+  margin: 0 0.5em;
+  vertical-align: top;
+  text-align: center;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs span {
+  color: #acb4b6;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs .breadcrumbs_delimiter {
+  color: #acb4b6;
+}
+.type-1317 .content_wrap-2 .wrapper .breadcrumbs .breadcrumbs_delimiter:before {
+  content: '/';
+}
+.type-1317 .wapper2 {
+  padding-top: 60px;
+}
+.type-1317 .wapper2 .wrapper {
+  padding-left: 25px;
+  padding-right: 17px;
+}
+.type-1317 .wapper2 .wrapper .images {
+  margin-bottom: 4.286em;
+  max-width: 100%;
+}
+.type-1317 .wapper2 .wrapper .summary {
+  margin-bottom: 2em;
+}
+.type-1317 .wapper2 .wrapper .summary .product_title {
+  clear: none;
+  margin-top: 0;
+  padding: 0;
+  margin: 0;
+  color: #1a3150;
+  font-size: 3em;
+  line-height: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+.type-1317 .wapper2 .wrapper .summary .product_title .price {
+  padding-left: 40px;
+  background-color: #f6f7f3;
+}
+.type-1317 .wapper2 .wrapper .summary .product_title .price .amount {
+  color: #7ca813;
+  font-size: 27px;
+}
+.type-1317 .wapper2 .wrapper .summary .product_title .price .amount1 {
+  color: #aab2bd;
+  font-size: 15px;
+}
+.type-1317 .wapper2 .wrapper .summary .fa-circle {
+  color: #7ca813;
+  font-size: 10px;
+}
+.type-1317 .wapper2 .wrapper .summary .description {
+  font-size: 17px;
+  cocartlor: #707276;
+  line-height: 35px;
+}
+.type-1317 .wapper2 .wrapper .summary .description p {
+  color: #707276;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: inherit;
+}
+.type-1317 .wapper2 .wrapper .summary .quantity {
+  margin: 0 1em 0 0;
+  width: 7.500em;
+  height: 3.857em;
+  position: relative;
+  float: left;
+  background: #F6F7F3;
+}
+.type-1317 .wapper2 .wrapper .summary .quantity input[type="number"] {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #F6F7F3;
+}
+.type-1317 .wapper2 .wrapper .summary .quantity input[type="number"] .qty {
+  font-weight: 300;
+  color: #aab2bd;
+}
+.type-1317 .wapper2 .wrapper .summary .quantity .q_inc {
+  top: 10px;
+}
+.type-1317 .wapper2 .wrapper .summary button.alt:hover {
+  background-color: #7ca813;
+}
+.type-1317 .wapper2 .wrapper .summary button.alt {
+  background-color: #96BD42;
+  color: #fff;
+}
+.type-1317 img {
+  max-width: 100%;
+}

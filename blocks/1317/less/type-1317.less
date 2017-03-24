@@ -1,0 +1,146 @@
+@green: #7ca813;
+@cl3: #f6f7f3;
+@cl1:#1a3150;
+@cl2:#acb4b6;
+@cl4: #aab2bd;
+@cl5: #707276;
+@fs14: 14px;
+@fs929: 0.929em;
+@fs3em: 3em;
+@fs27: 27px;
+@fs10: 10px;
+@fs15: 15px;
+@fs17: 17px;
+a {
+    color:#7CA813;
+}
+.type-1317 {
+    @font-face {
+        font-family: 'myFont';
+        src: url('fontello5973.ttf');
+    }
+    .content_wrap-2{
+        width:auto;
+        font-size: @fs14;
+        font-weight: 400;
+        line-height: 2.000em;
+        background:@cl3;
+        .wrapper {
+            padding-left: 25px;
+            padding-right: 19px;
+            .breadcrumbs {
+                float: right;
+                padding: 1.6667em 16px 2.5em;
+                font-size: @fs929;
+                line-height: 1.5em;
+                a.breadcrumbs_item {
+                    color: @cl1;
+                    display: inline-block;
+                    vertical-align: top;
+                    white-space: nowrap;
+                }
+                .breadcrumbs_delimiter {
+                    display: inline-block;
+                    position: relative;
+                    margin: 0 0.5em;
+                    vertical-align: top;
+                    text-align: center;
+                }
+                span {
+                    color: @cl2;
+                }
+                .breadcrumbs_delimiter {
+                    color: @cl2;
+                }
+                .breadcrumbs_delimiter:before {
+                    content: '/';
+                }
+            }
+        }
+    }
+    .wapper2{
+        padding-top: 60px;
+        .wrapper {
+            padding-left: 25px;
+            padding-right: 17px;
+            .images{
+                margin-bottom: 4.286em;
+                max-width: 100%;
+            }
+            .summary {
+                margin-bottom: 2em;
+                .product_title {
+                    clear: none;
+                    margin-top: 0;
+                    padding: 0;
+                    margin: 0;
+                    color: #1a3150;
+                    font-size: @fs3em;
+                    line-height: 1.1em;
+                    font-weight: 600;
+                    margin-bottom: 0.8em;
+                    .price {
+                        padding-left: 40px;
+                        background-color: @cl3;
+                        .amount{
+                            color:@green;
+                            font-size: @fs27;
+                        }
+                        .amount1{
+                            color: @cl4;
+                            font-size: @fs15;;
+                        }
+                    }
+                }
+                .fa-circle{
+                    color: @green;
+                    font-size: @fs10;
+                }
+                .description{
+                    font-size: @fs17;
+                    cocartlor: @cl5;
+                    line-height: 35px;
+                    p{
+                        color:@cl5;
+                        font-size:@fs15;
+                        line-height: 26px;
+                        font-family: inherit;	
+                    }
+                }
+                .quantity {
+                    margin: 0 1em 0 0;
+                    width: 7.500em;
+                    height: 3.857em;
+                    position: relative;
+                    float: left;
+                    background:  #F6F7F3;
+                    input[type="number"] {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        background:  #F6F7F3;
+                        .qty{
+                            font-weight: 300;
+                            color: @cl4;
+                        }
+                    }
+                    .q_inc {
+                        top: 10px;
+                    }
+                }
+                button.alt:hover{
+                    background-color: #7ca813;
+                }
+                button.alt{
+                    background-color:  #96BD42;
+                    color:#fff;
+                }
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+	
