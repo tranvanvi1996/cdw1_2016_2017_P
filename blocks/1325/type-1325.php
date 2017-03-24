@@ -24,8 +24,8 @@
                             <div class="save">
                                 <h1>save 30%</h1>
                                 <p>WE OFFER EXCLUSIVE DEALS FOR VARIOUS SPORT PRODUCTS OF PREMIUM QUALITY THAT HAS BEEN TESTED AND PROVED BY YEARS AND EXPERIENCED PLAYERS</p>
-                            </div>
 
+                            </div>
                             <div class=" margin_top_small aligncenter">
                                 <div>
                                     <div class="cube flip-to-top">
@@ -40,6 +40,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="col-md-6"></div>
                     </div>
