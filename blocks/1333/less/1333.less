@@ -1,0 +1,108 @@
+.type-1333 {
+    @color1: #fff;
+    @height1: 26px;
+    .ornament-bottom{
+        background: @color1;
+        height: @height1;
+        -webkit-mask-image: url(../images/ornament-bottom.svg);
+        width: 156px;
+        position: absolute;
+        left: 50%;
+        margin-left: -78px;
+
+    }
+    .vamtam-grid.first.has-background {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    .vamtam-add-ornaments-all {
+        border-radius: 20px;
+        z-index: 10;
+        position: relative;
+    }
+    .vamtam-add-ornaments-all:before,
+        {
+        display: block;
+        background: @color1;
+        height: @height1;
+        content: " ";
+        -webkit-mask-image: url(../images/ornament-top.svg);
+        width: 156px;
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        margin-left: -78px;
+        z-index: 10;
+    }
+    .vamtam-add-ornaments-all:after,
+        {
+        display: block;
+        background: @color1;
+        height: @height1;
+        content: " ";
+        -webkit-mask-image: url(../images/ornament-bottom.svg);
+        width: 156px;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        margin-left: -78px;
+        z-index: 10;
+    }
+    .vamtam-grid>.vamtam-parallax-bg-wrapper {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .vamtam-parallax-bg-wrapper>.vamtam-parallax-bg-img {
+        background-attachment: scroll!important;
+    }
+    .vamtam-parallax-bg-img,
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .vamtam-parallax-bg-img {
+        background-position: 50% 0%;
+        background-image: url(../images/slider-faq.jpg);
+        background-color: rgb(41, 41, 41);
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        transform: matrix(1, 0, 0, 1, 0, -83.4875);
+        top: -300px;
+        bottom: -300px;
+        will-change: transform;
+        opacity: 1;
+        max-width: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    .vamtam-grid.vamtam-add-ornaments-all {
+        background-color: rgb(255, 255, 255);
+        padding: 30px 55px;
+        min-height: 300px;
+        width: 50%;
+        float: left;
+    }
+    .vamtam-grid .first .unextended {
+        padding-top: 0.05px;
+        padding-bottom: 0.05px;
+        min-height: 300px;
+    }
+    @media (max-width: 990px){
+        .vamtam-grid.vamtam-add-ornaments-all {
+            width: 100%;
+        }
+    }
+}
