@@ -1,0 +1,77 @@
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/Philosopher-Regular.ttf");
+}
+.container {
+  width: 97% !important;
+}
+a {
+  color: black !important;
+  text-decoration: none;
+}
+.cdw2 header #cssmenu .logo {
+  width: 30%;
+}
+.cdw2 header #cssmenu .logo a {
+  font-family: myfont;
+  text-decoration: none;
+}
+.cdw2 header #cssmenu .logo p {
+  color: green;
+}
+@media (max-width: 1017px) {
+  .cdw2 header #cssmenu .right {
+    float: right;
+    position: relative;
+    right: 34px;
+    top: -11px;
+  }
+  .cdw2 header #cssmenu .right .fa-shopping-bag {
+    left: -19px !important;
+  }
+}
+.cdw2 header #cssmenu .button {
+  color: #cb7152;
+}
+.cdw2 header #cssmenu ul {
+  z-index: 11111;
+}
+.cdw2 header #cssmenu ul #li {
+  float: left;
+  margin-right: 4%;
+}
+.cdw2 header #cssmenu ul #li a {
+  text-decoration: none;
+}
+.cdw2 header #cssmenu ul #li .active {
+  color: #cb7152 !important;
+  font-size: 17px;
+}
+.cdw2 header #cssmenu ul #li a:hover {
+  color: #cb7152;
+}
+.cdw2 header #cssmenu ul #li ul {
+  background: none !important;
+}
+.cdw2 header #cssmenu ul #li ul li {
+  background: #eee;
+}
+.cdw2 header #cssmenu ul #li ul li a {
+  color: black;
+}
+.cdw2 header #cssmenu ul #li ul li a:hover {
+  color: #cb7152;
+}
+@media (max-width: 1157px) {
+  .cdw2 header #cssmenu #li {
+    margin-right: 3% !important;
+  }
+}
+.cdw2 header #cssmenu .icon {
+  margin: 13px 0px;
+}
+.cdw2 header #cssmenu .icon i {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 10px;
+}

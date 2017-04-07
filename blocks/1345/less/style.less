@@ -1,0 +1,92 @@
+@font-face {
+    font-family: myfont;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+.container {
+    width: 97% !important;
+}
+
+a {
+    color:black !important;
+    text-decoration: none;
+}
+.cdw2 {
+    header {
+        #cssmenu {
+
+            .logo {
+                width: 30%;
+                a {
+                    font-family: myfont;
+                    text-decoration: none;
+                }
+                p {
+                    color:green;
+                }
+            }
+            .right {
+
+            }
+            @media(max-width: 1017px)
+                {
+                .right {
+                    float: right;
+                    position: relative;
+                    right: 34px;
+                    top: -11px;
+                }
+                .right .fa-shopping-bag {
+                    left: -19px !important;
+                }
+            }
+            .button {
+                color:#cb7152;
+            }
+            ul {
+                z-index: 11111;
+                #li
+                {
+                    float:left;
+                    margin-right: 4%;
+                    a{text-decoration: none;}
+                    .active {
+                        color:#cb7152 !important;
+                        font-size: 17px;
+                    }
+                    a:hover {
+                        color: #cb7152;
+                    }
+                    ul {
+                        background:none !important;
+                        li {
+                            background: #eee;
+                            a {
+
+                                color:black;                     
+                            }
+                            a:hover{
+                                color: #cb7152;
+                            }
+                        }
+                    }                
+                }
+
+            }
+            @media (max-width: 1157px)
+                {
+                #li {
+                    margin-right: 3% !important;
+                }
+            }
+            .icon {
+                margin: 13px 0px;
+                i {
+                    font-size: 25px;
+                    font-weight: normal;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+   
+}

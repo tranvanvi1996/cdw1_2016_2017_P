@@ -1,0 +1,56 @@
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/Philosopher-Regular.ttf");
+}
+.container {
+  width: 97% !important;
+}
+a {
+  color: black !important;
+  text-decoration: none;
+}
+.cdw2 .banner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cdw2 .banner .image {
+  text-align: center;
+}
+.cdw2 .banner .image img {
+  width: 50%;
+}
+.cdw2 .banner .image #img2 {
+  position: absolute;
+  width: 9% !important;
+  left: 45.2%;
+  z-index: 101;
+  bottom: 64%;
+}
+.cdw2 .banner .image #img1 {
+  margin-top: 34px;
+}
+.cdw2 .banner .text {
+  z-index: 11111;
+  position: absolute;
+  top: 19%;
+  left: 0%;
+}
+.cdw2 .banner .text .a {
+  width: 37%;
+  margin: 0 auto;
+}
+.cdw2 .banner .text .a h1 {
+  color: #cd9b33;
+  font-size: 5.3em;
+}
+@media (max-width: 640px) {
+  .cdw2 .banner .text .a h1 {
+    font-size: 1.3em !important;
+  }
+}
+@media (max-width: 1000px) {
+  .cdw2 .banner .text .a h1 {
+    font-size: 3.3em;
+  }
+}

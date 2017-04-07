@@ -1,0 +1,135 @@
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/Philosopher-Regular.ttf");
+}
+.container {
+  width: 97% !important;
+}
+a {
+  color: black !important;
+  text-decoration: none;
+}
+.cdw2 .all {
+  position: relative;
+}
+.cdw2 .all .image {
+  width: 100%;
+}
+.cdw2 .all .image img {
+  width: 100%;
+}
+.cdw2 .all .times {
+  position: absolute;
+  top: 22%;
+  width: 100%;
+}
+.cdw2 .all .times .reon {
+  background: #F5F3F0;
+  margin: 0 auto;
+  width: 437px;
+  height: auto;
+  position: relative;
+}
+.cdw2 .all .times .reon .reser {
+  padding: 10px 0;
+  background: #23282F;
+  width: 437px;
+  height: 87px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.cdw2 .all .times .reon .reser h1 {
+  font-size: 18px;
+  color: #f5f5f5;
+}
+.cdw2 .all .times .reon .reser::before {
+  display: block;
+  background: #23282F;
+  height: 26px;
+  content: " ";
+  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
+  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
+  width: 156px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-left: -78px;
+  z-index: 10;
+}
+.cdw2 .all .times .reon .on {
+  padding: 20px 10px;
+  text-align: center;
+}
+.cdw2 .all .times .reon .on h1 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+.cdw2 .all .times .reon .item {
+  clear: both;
+  padding: 0 10px;
+}
+.cdw2 .all .times .reon .item h3 {
+  font-size: 16px;
+}
+.cdw2 .all .times .reon .item h3 span {
+  float: right;
+}
+.cdw2 .all .times .reon .item h3:after {
+  margin-top: 10px;
+  display: block;
+  line-height: 1em;
+  font-size: 0.4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  content: "...................................................................................................................................................................................................................................................";
+  width: 100%;
+  overflow: hidden;
+  height: 10px;
+  bottom: -10px;
+}
+.cdw2 .all .times .reon .book {
+  padding: 10px;
+  text-align: center;
+}
+.cdw2 .all .times .reon .book h3 {
+  font-size: 16px;
+}
+.cdw2 .all .times .reon .book h2 {
+  font-size: 24px;
+}
+.cdw2 .all .times .reon .book .now {
+  margin: 30px auto;
+  width: 100px;
+  height: 44px;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: 1px solid #CB7152;
+  text-decoration: none;
+}
+.cdw2 .all .times .reon .book .now #a1 {
+  font-size: 14px;
+}
+.cdw2 .all .times .reon .book .now #a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.cdw2 .all .times .reon .book .now:hover {
+  background: #CB7152;
+}
+@media (max-width: 486px) {
+  .cdw2 .all .times .reon {
+    width: 287px;
+  }
+  .cdw2 .all .times .reon .reser {
+    width: 287px;
+  }
+}
+@media (max-width: 320px) {
+  .cdw2 .all .times .reon {
+    width: 203px;
+  }
+  .cdw2 .all .times .reon .reser {
+    width: 203px;
+  }
+}
