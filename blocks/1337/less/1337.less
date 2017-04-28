@@ -1,0 +1,141 @@
+.row{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.type-1337 {
+    @color1: #cb7152;
+    @size1: 1em;
+    .introduction {
+        background: url(../images/brunch-big2.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 0.05px;
+        padding-bottom: 0.05px;
+        position: relative;
+        padding: 416px 0;
+    }
+    .fp_box:hover h3 {
+        color: @color1;
+    }
+    span.fp_price {
+        color: @color1;
+    }
+    .fp_box h3 {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+    .menu_description {
+        font-style: normal;
+        font-size: 12px;
+    }
+    .fp_box .menu_description {
+        color: #6b6b6b;
+    }
+    .fp_box {
+        padding: 0px 55px;
+    }
+    .sep-text .single .centered {
+        text-align: center;
+    }
+    .fp_price {
+        float: right;
+    }
+    .fp_box h3:before {
+        display: block;
+        line-height: @size1;
+        font-size: 0.4em;
+        letter-spacing: 4px;
+        color: #6b6b6b;
+        content: "...................................................................................................................................................................................................................................................";
+        width: 100%;
+        overflow: hidden;
+        height: 10px;
+        top: 35px;
+        position: relative;
+    }
+    .detail {
+        top: -10.5%;
+        background: #fff;
+        left: 25.7%;
+        padding: 24px 0;
+        border-radius: 20px;
+        p {
+            text-align: center;
+            font: normal 16px/24px Varela Round;
+            margin: @size1 0;
+        }
+    }
+    .sep-text {
+        position: relative;
+        margin: 30px 0 40px 0;
+        text-align: center;
+    }
+    .sep-text.centered .sep-text-before,
+    .sep-text.centered .sep-text-after {
+        width: 50%;
+        font-size: 10px;
+    }
+    .sep-text .sep-text-before {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-align: right;
+    }
+    .sep-text .sep-text-after {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-align: left;
+    }
+    .sep-text .sep-text-line {
+        display: inline-block;
+        width: 20%;
+        border-top: 0 solid;
+        border-bottom: 1px solid;
+        color: #EDEDED;
+        vertical-align: baseline;
+    }
+
+    .sep-text .content {
+          padding-right: .7em;
+        padding-left: .7em;
+        display: table-cell;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    .text-divider-double {
+        font-size: 60px;
+        letter-spacing: 6px;
+    }
+    .sep-text .text-divider-subtitle {
+        color: @color1;
+        font-family: 'Handlee';
+        font-size: @size1;
+        letter-spacing: 0.3em;
+        padding-top: 10px;
+    }
+    .sep-text .content * {
+        margin: 0;
+        line-height: 1;
+    }
+    .sep-text .text-divider-subtitle:before,
+    .sep-text .text-divider-subtitle:after {
+        display: inline-block;
+        width: auto;
+        height: 15px;
+        content: "~";
+        font-size: 1.2em;
+        padding: 0px 5px;
+    }
+  
+    @media (max-width: 992px) {
+        .introduction{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .detail{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}

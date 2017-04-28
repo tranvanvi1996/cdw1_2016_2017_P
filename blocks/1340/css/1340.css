@@ -1,0 +1,48 @@
+.type-1340 .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.type-1340 .col-md-15 {
+  width: 100%;
+  text-align: center;
+  padding: 0px 30px;
+}
+.type-1340 .col-md-15 .col-md-3 {
+  width: 20%;
+  float: left;
+}
+.type-1340 img {
+  transition: 0.5s;
+  border-radius: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.type-1340 h {
+  font: normal 24px/32px Libre Baskerville;
+}
+.type-1340 p {
+  margin-top: 20px;
+  font: normal 16px/24px Varela Round;
+  color: #2c2c2c;
+}
+.type-1340 .news:hover img {
+  border-radius: 20%;
+}
+.type-1340 .news:hover h {
+  color: #cb7152;
+}
+@media (max-width: 991px) {
+  .type-1340 .col-md-15 .col-md-3 {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .type-1340 img {
+    width: 300px;
+  }
+}
+@media (max-width: 405px) {
+  .type-1340 img {
+    width: 170px;
+  }
+}

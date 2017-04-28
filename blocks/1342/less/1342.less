@@ -1,0 +1,141 @@
+.type-1342 {
+    @size1: 20px;
+    @size2: 15px;
+    @size3: 30px;
+    @size4: 12px;
+    @color1: #cb7152;
+        padding: 0px 5px;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .news-1 {
+        background: url(../images/coffee-photo-1.jpg) left center / auto no-repeat scroll;
+        padding-top: 100px;
+        padding-bottom: 0.05px;
+        min-height: 610px;
+    }
+    .news-2 {
+        background: url(../images/coffee-photo-2.jpg) right center / auto no-repeat scroll;
+        padding-top: 100px;
+        padding-bottom: 0.05px;
+        min-height: 610px;
+    }
+    .coffe {
+        text-align: center;
+        p {
+            font: normal 16px/24px Varela Round;
+            margin-bottom: @size1;
+            width: 92%;
+        }
+        h4 {
+            font: normal 24px/32px Libre Baskerville;
+            margin-bottom: @size1;
+        }
+        h6 {
+            font: normal 11px/@size4 Varela Round;
+            margin-bottom: @size1;
+        }
+        .box {
+            border: 1px solid @color1;
+            border-radius: @size2;
+            font-size: @size2;
+            width: 150px;
+            height: 35px;
+            transition: 0.6s;
+            overflow: hidden;
+            margin: 0 auto;
+            .text {
+                padding: 4px;
+                transition: 0.6s;
+            }
+        }
+        .box:hover {
+            background: @color1;
+        }
+        .box:hover .text {
+            color: #fff;
+            transform: translateY(-28px);
+        }
+        .sep-text {
+            margin-top: 69px;
+        }
+    }
+    .fp_box {
+        padding-right: @size3;
+        h3 {
+            font-size: 16px;
+            padding-bottom: @size4;
+        }
+        .menu_description {
+            font-style: normal;
+            font-size: @size4;
+            color: #6b6b6b;
+        }
+        .fp_price {
+            float: right;
+            right: 0;
+            color: @color1;
+        }
+        h3:before {
+            display: block;
+            line-height: 1em;
+            font-size: 0.4em;
+            letter-spacing: 4px;
+            color: #6b6b6b;
+            content: "...................................................................................................................................................................................................................................................";
+            width: 100%;
+            overflow: hidden;
+            height: 10px;
+            top: 35px;
+            position: relative;
+        }
+    }
+    .fp_box:hover h3 {
+        color: @color1;
+    }
+    .detail {
+        border-right: 1px solid #c0c0c0;
+        background: #fff;
+        padding: 63px 0px;
+    }
+    .sep-text {
+        position: relative;
+        margin: @size3 0 @size3 0;
+        text-align: center;
+        h3 {
+            font: normal 40px/50px Libre Baskerville;
+        }
+        .text {
+            color: @color1;
+            font-family: 'Handlee';
+            font-size: 1em;
+            letter-spacing: 0.3em;
+        }
+        .text:before,.text:after {
+            display: inline-block;
+            width: auto;
+            height: @size2;
+            content: "~";
+            font-size: 1.2em;
+            padding: 0px 5px;
+        }
+    }
+    @media (max-width: 991px) {
+        .coffe {
+            margin-bottom: 50px;
+            p {
+                width: 100%;
+            }
+        }
+        .detail {
+            border-right: none;
+        }
+    }
+    @media (max-width: 479px) {
+        .sep-text h3 {
+            font-size: 140%;
+            line-height: 1.2em;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.type-1341 {
+    @size1: 100%;
+    @color1:#2c2c2c;
+    .news {
+        background-position: 50% @size1;
+        background-image: url(../images/coffee-img-4-1.jpg);
+        background-repeat: no-repeat;
+        padding: 0 3%;
+    }
+    .grape {
+        background: url(../images/coffee-img-2.jpg) no-repeat center top;
+        padding: 220px 0;
+        margin-top: 320px;
+        h {
+            font: normal 24px/32px Libre Baskerville;
+        }
+        p {
+            font: normal 16px/24px Varela Round;
+            color: @color1;
+            margin-top: 15px;
+            width: 79%;
+        }
+    }
+    .coffe {
+        text-align: center;
+        h {
+            font: normal 40px/32px Libre Baskerville;
+        }
+        p {
+            font: normal 15px/24px Varela Round;
+            color: @color1;
+            margin-top: 20px;
+            width: 90%;
+        }
+        img {
+            margin-bottom: 20px;
+        }
+    }
+    .blan {
+        background: url(../images/coffee-img-3.jpg) no-repeat center top;
+        padding: 260px 0;
+        margin-top: 320px;
+        h {
+            font: normal 24px/32px Libre Baskerville;
+        }
+        p {
+            font: normal 16px/24px Varela Round;
+            color: @color1;
+            margin-top: 15px;
+            width: 78%;
+        }
+    }
+    @media (max-width: 991px) {
+        .grape {
+            background: none;
+            padding: 0;
+            p {
+                width: @size1;
+            }
+        }
+        .blan {
+            background: none;
+            padding: 0;
+            margin-top: 50px;
+            p {
+                width: @size1;
+            }
+        }
+        .coffe {
+            p {
+                width: @size1;
+            }
+        }
+        .news {
+            background-position: 50% -15%;
+        }
+    }
+}

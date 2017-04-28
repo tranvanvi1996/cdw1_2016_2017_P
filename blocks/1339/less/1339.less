@@ -1,0 +1,223 @@
+.type-1339 {
+    @color1: #000;
+    @color2: #fff;
+    @color3: #cb7152;
+    @text1: center;
+    html .team-member .team-member-info h6:after,
+    .team-member:hover .team-member-info h6:after {
+        width: 50px;
+    }
+    .fa {
+        margin: 0px 5px 0px 5px;
+        width: 40px;
+        height: 40px;
+        color: @color2;
+        text-align: @text1;
+        font-size: 16px!important;
+        line-height: 1;
+        display: inline-block;
+        padding: 10px!important;
+        border-radius: 100%;
+        border: solid 1px rgba(255, 255, 255, 0.5);
+        background: transparent;
+    }
+    .fa:hover {
+        background: @color2;
+        color: @color3;
+    }
+    p {
+        font-size: 16px;
+    }
+    .row {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-text-size-adjust: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+    body {
+        overflow: hidden;
+        hyphens: auto;
+    }
+    a:hover,
+    a:active {
+        outline: none;
+    }
+    .row {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    h3,
+    h3 a,
+    {
+        color: @color1;
+        font: normal 40px/50px Libre Baskerville;
+    }
+    h4,
+    {
+        color: @color1;
+        font: normal 24px/32px Libre Baskerville;
+    }
+    h6,
+    h6 a,
+    {
+        color: @color1;
+        font: normal 11px/12px Varela Round;
+    }
+    h3 em {
+        font: normal 40px/50px 'Libre Baskerville';
+        color: @color1;
+    }
+    h4 em {
+        font: normal 24px/32px 'Libre Baskerville';
+        color: @color1;
+    }
+    h6 em {
+        font: normal 11px/12px 'Libre Baskerville';
+        color: @color1;
+    }
+    a {
+        text-decoration: none;
+        color: @color1;
+        transition: color .3s;
+    }
+    a:visited {
+        color: @color1;
+    }
+    a:active {
+        color: @color3;
+    }
+    a:hover {
+        text-decoration: none;
+        color: @color3;
+    }
+    .team-member {
+        padding: 0!important;
+        margin: 0px 0px 20px 0px;
+        border-radius: 6px;
+        overflow: hidden;
+        border: solid 1px #EDEDED;
+        transition: all .3s ease;
+        z-index: 1;
+        position: relative;
+    }
+    .team-member .thumbnail {
+        overflow: hidden;
+        background: @color1;
+        position: relative;
+    }
+    .team-member img {
+        transition: opacity 0.40s, transform 0.60s;
+        transform: scale(1.10);
+        border-radius: 16px;
+        width: 100%;
+    }
+    .team-member .team-member-info {
+        background: @color2;
+        margin-top: 0px;
+        padding: 15px 20px 20px 20px;
+    }
+    .team-member .team-member-info a {
+        font-size: 14px;
+    }
+    .team-member .team-member-info h4 {
+        margin: 0px;
+        padding: 5px 0px 12px 0px;
+    }
+    .team-member .team-member-info h4 a {
+        font-size: 24px;
+        display: block;
+    }
+    .team-member .team-member-info h6 {
+        margin: 0px;
+        padding-bottom: 10px;
+        font-size: 11px;
+        opacity: 0.7;
+    }
+    .team-member .team-member-info h6:after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 1px;
+        margin: 15px 0px 5px 0px;
+        transition: all .6s;
+        opacity: 1;
+        background: @color3;
+    }
+    .team-member .team-member-info a[href^="mailto:"] {
+        word-wrap: break-word;
+    }
+    .team-member .team-member-info .team-member-bio {
+        margin-top: 15px;
+        font-size: 14px;
+        opacity: 0.6;
+        transition: opacity .3s ease;
+    }
+    .team-member:hover img {
+        opacity: 0.6;
+        transform: scale(1.2);
+    }
+    .team-member,
+    .team-member:hover {
+        box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    .team-member .team-member-bio,
+    .team-member:hover .team-member-bio {
+        opacity: 1;
+    }
+    .team-member .share-icons,
+    .team-member:hover .share-icons {
+        opacity: 1;
+        bottom: 35%;
+        white-space: normal;
+    }
+    .team-member .share-icons,
+    .team-member:hover .share-icons .icon {
+        margin: 10px 5px 0px 5px;
+    }
+    .team-member .share-icons {
+        position: absolute;
+        left: 0;
+        top: auto;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+        text-align: @text1;
+        opacity: 0;
+        background: none;
+        min-height: 60px;
+        bottom: 25%;
+        transition: opacity .3s, bottom .3s;
+        display: block;
+        margin: 10px 5px 0px 5px;
+    }
+    .team-member .share-icons a {
+        display: inline-block;
+    }
+    .team-member .share-icons a:hover .icon {
+        background: @color2;
+        color: @color3!important;
+    }
+    .team-member .share-icons .icon {
+        margin: 0px 5px 0px 5px;
+        width: 16px;
+        height: 16px;
+        color: @color2;
+        text-align: @text1;
+        font-size: 16px!important;
+        line-height: 1;
+        display: inline-block;
+        padding: 10px!important;
+        border-radius: 100%;
+        border: solid 1px rgba(255, 255, 255, 0.5);
+        background: transparent;
+    }
+    .team-member .share-icons .icon:hover {
+        transition: color .5s ease 0s;
+        color: @color3;
+    }
+}

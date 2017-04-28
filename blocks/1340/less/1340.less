@@ -1,0 +1,54 @@
+.type-1340{
+    @size1: 20px;
+    @size2: 20%;
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .col-md-15{
+        width: 100%; 
+        text-align: center;
+        padding: 0px 30px;
+        .col-md-3{
+            width: @size2;
+            float: left;
+        }
+    }
+    img{
+        transition: 0.5s;
+        border-radius: 50%;
+        width: 100%;
+        margin-bottom: @size1;
+    }
+    h{
+        font: normal 24px/32px Libre Baskerville;
+    }
+    p{
+        margin-top: @size1;
+        font: normal 16px/24px Varela Round;
+        color: #2c2c2c;
+    }
+    .news:hover {
+        img{
+            border-radius: @size2;
+        }
+        h{
+            color:#cb7152;
+        }
+    }
+    @media (max-width: 991px){
+        .col-md-15 .col-md-3{
+            float: none;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        img{
+            width: 300px;
+        }
+    }   
+    @media (max-width: 405px){
+        img{
+            width: 170px;
+        }
+    }   
+}

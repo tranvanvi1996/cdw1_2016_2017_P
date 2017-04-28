@@ -1,0 +1,195 @@
+.type-1344 {
+       padding: 0px 25px;
+    .coffe{
+            padding: 0 70px;
+            h2{
+                font: normal 55px/68px Libre Baskerville;
+                    margin: 40px 0;
+            }
+            p{
+                    font: normal 16px/24px Varela Round;
+                        width: 107%;
+            }
+    }
+    
+    .carousel-inner {
+    position: relative;
+    width: 85%;
+    overflow: hidden;
+}
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 130%;
+       position: relative;
+       top: -30px;
+       left: -30px;
+        margin: auto;
+        transition: 1s;
+        
+    }
+    #myCarousel{
+         img{
+          
+    position: relative;
+    left: -10%;
+     transition: 1s;
+    top: -10%;
+    }
+    .image{
+            height: 240px;
+    overflow: hidden;
+     transition: 1s;
+  
+    
+    
+    }
+    }
+   
+    .carousel-control {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 15%;
+        font-size: 20px;
+        transition: 1s;
+        opacity: 0;
+
+    }
+   
+    #myCarousel:hover .carousel-control {
+        opacity: 1;
+    }
+    #myCarousel:hover .carousel-inner .item .image img{
+          transform: scale(1.1);
+    transition: 1s;
+    }
+    .glyphicon-chevron-left{
+        position: absolute;
+            top: 53%;
+    left: -43%;
+        z-index: 5;
+        display: inline-block;
+        color: #000;
+        background: #fff;
+        border-radius: 50%;
+        padding: 15px;
+        
+    }
+    .glyphicon-chevron-left:hover{
+        background: #cb7152;
+        color: #fff;
+    }
+    .glyphicon-chevron-right {
+
+        position: absolute;
+        color: #000;
+        background: #fff;
+        border-radius: 50%;
+        padding: 15px;
+            top: 53%;
+    left: 535%;
+        z-index: 5;
+        
+        color: #000;
+    }
+    .glyphicon-chevron-right:hover{
+        background: #cb7152;
+        color: #fff;
+    }
+    .carousel-indicators li {
+        display: none;
+
+    }
+    .item {
+        width: 100%;
+        border: solid 1px #EDEDED;  
+        text-align: center;
+        background: #fff;
+        .back{
+            display: none;
+            padding: 0px 85px;
+            position: absolute;
+            bottom: 210px;
+            h4{
+                background: #fff;
+                font-size: 12px;
+                border-radius: 20px;
+                padding: 10px 10px;
+            }
+            h4:hover{
+                background: #000;
+                color: #fff;
+            }
+        }
+
+
+        a{
+            color: #6b6b6b;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #cb7152;
+        }
+        span{
+            font: normal 16px/18px 'Varela Round';
+        }
+        h5 {
+            margin-top: 20px;
+            position: relative;
+            float: none;
+            text-transform: uppercase;
+            font-family: 'Libre Baskerville';
+            line-height: 1.3em;
+
+            font-size: 10px;
+            letter-spacing: 1px;
+            color: #2c2c2c;
+
+        }
+        h3{
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 20px;
+
+        }
+        h3:hover{
+            color: #cb7152;
+        }
+
+        h{
+            font: normal 16px/18px 'Varela Round';
+        }
+
+    }
+
+    .news{
+        margin-bottom: 20px;
+    }
+    #myCarousel:hover{
+        .carousel-inner:hover{
+            .back{
+                display: block;
+            }
+            .carousel-inner:hover{
+                .glyphicon-chevron-left{
+                    display: block;
+                }
+
+            }
+
+        }
+    }
+    @media (max-width:991px){
+        .photo{
+            img{
+                display: none;
+            }
+        }
+        .carousel-inner {
+   
+    width: 100%;
+
+}
+    }
+}

@@ -1,0 +1,159 @@
+.type-1344 {
+  padding: 0px 25px;
+}
+.type-1344 .coffe {
+  padding: 0 70px;
+}
+.type-1344 .coffe h2 {
+  font: normal 55px/68px Libre Baskerville;
+  margin: 40px 0;
+}
+.type-1344 .coffe p {
+  font: normal 16px/24px Varela Round;
+  width: 107%;
+}
+.type-1344 .carousel-inner {
+  position: relative;
+  width: 85%;
+  overflow: hidden;
+}
+.type-1344 .carousel-inner > .item > img,
+.type-1344 .carousel-inner > .item > a > img {
+  width: 130%;
+  position: relative;
+  top: -30px;
+  left: -30px;
+  margin: auto;
+  transition: 1s;
+}
+.type-1344 #myCarousel img {
+  position: relative;
+  left: -10%;
+  transition: 1s;
+  top: -10%;
+}
+.type-1344 #myCarousel .image {
+  height: 240px;
+  overflow: hidden;
+  transition: 1s;
+}
+.type-1344 .carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  transition: 1s;
+  opacity: 0;
+}
+.type-1344 #myCarousel:hover .carousel-control {
+  opacity: 1;
+}
+.type-1344 #myCarousel:hover .carousel-inner .item .image img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.type-1344 .glyphicon-chevron-left {
+  position: absolute;
+  top: 53%;
+  left: -43%;
+  z-index: 5;
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px;
+}
+.type-1344 .glyphicon-chevron-left:hover {
+  background: #cb7152;
+  color: #fff;
+}
+.type-1344 .glyphicon-chevron-right {
+  position: absolute;
+  color: #000;
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  top: 53%;
+  left: 535%;
+  z-index: 5;
+}
+.type-1344 .glyphicon-chevron-right:hover {
+  background: #cb7152;
+  color: #fff;
+}
+.type-1344 .carousel-indicators li {
+  display: none;
+}
+.type-1344 .item {
+  width: 100%;
+  border: solid 1px #EDEDED;
+  text-align: center;
+  background: #fff;
+}
+.type-1344 .item .back {
+  display: none;
+  padding: 0px 85px;
+  position: absolute;
+  bottom: 210px;
+}
+.type-1344 .item .back h4 {
+  background: #fff;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.type-1344 .item .back h4:hover {
+  background: #000;
+  color: #fff;
+}
+.type-1344 .item a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+.type-1344 .item a:hover {
+  color: #cb7152;
+}
+.type-1344 .item span {
+  font: normal 16px/18px 'Varela Round';
+}
+.type-1344 .item h5 {
+  margin-top: 20px;
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+}
+.type-1344 .item h3 {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.type-1344 .item h3:hover {
+  color: #cb7152;
+}
+.type-1344 .item h {
+  font: normal 16px/18px 'Varela Round';
+}
+.type-1344 .news {
+  margin-bottom: 20px;
+}
+.type-1344 #myCarousel:hover .carousel-inner:hover .back {
+  display: block;
+}
+.type-1344 #myCarousel:hover .carousel-inner:hover .carousel-inner:hover .glyphicon-chevron-left {
+  display: block;
+}
+@media (max-width: 991px) {
+  .type-1344 .photo img {
+    display: none;
+  }
+  .type-1344 .carousel-inner {
+    width: 100%;
+  }
+}

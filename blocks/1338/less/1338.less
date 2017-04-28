@@ -1,0 +1,96 @@
+.type-1338 {
+    @size1: 30px;
+    @size2: 1px;
+    img {
+        width: 100%;
+    }
+    .text {
+        margin: 60px 0 25px 0;
+    }
+    .text h2 {
+        font: normal 56px/68px Libre Baskerville;
+        text-align: center;
+    }
+    .text+.sep {
+        margin: 0 auto 40px auto;
+        position: relative;
+        min-width: 0;
+        width: 100px;
+        color: #000;
+        transition: all .8s;
+    }
+    .text:hover+.sep {
+        width: 140px;
+    }
+    .sep {
+        margin: @size1 0 @size1 0;
+        min-width: 8%;
+        height: @size2;
+        border-top: @size2 solid;
+        color: #000;
+        transition: all .8s;
+    }
+    .theme {
+        padding: 50px 0;
+        text-align: center;
+        font-size: 54px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        border-bottom: solid @size2 #EDEDED;
+    }
+    .page-header-line {
+        display: block;
+        width: 120px;
+        height: 3px;
+        border-radius: @size1;
+        background: #cb7152;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .nav-tabs {
+        border-bottom: none;
+        padding: 40px 4%;
+    }
+    a {
+        font: normal 20px/24px Varela Round;
+    }
+    .nav-tabs>li>a {
+        margin-right: 2px;
+        line-height: 1.428571429;
+        border-radius: 4px 4px 0 0;
+        color: #555;
+    }
+    .nav-tabs>li.active>a,.nav-tabs>li>a:hover {
+        color: #cb7152;
+        cursor: default;
+        border: none;
+        border-bottom: 2px solid #cb7152;
+    }
+    .nav-tabs>li {
+        padding: 5px 17px;
+    }
+    .tab-content {
+        margin-bottom: 140px;
+    }
+    #home {
+        padding: 0 46px;
+    }
+    #menu1,#menu2,#menu3,#menu4,#menu5,#menu6,#menu7,#menu8 {
+        padding: 0 62px;
+    }
+    #menu9,#menu10,#menu11,#menu12 {
+        img {
+            width: 44.2%;
+            margin-left: 27.9%;
+        }
+    }
+    @media (max-width:479px) {
+        .text h2 {
+            font: normal 35px/68px Libre Baskerville;
+            text-align: center;
+        }
+    }
+}

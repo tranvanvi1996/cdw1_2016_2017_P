@@ -1,0 +1,72 @@
+.type-1341 .news {
+  background-position: 50% 100%;
+  background-image: url(../images/coffee-img-4-1.jpg);
+  background-repeat: no-repeat;
+  padding: 0 3%;
+}
+.type-1341 .grape {
+  background: url(../images/coffee-img-2.jpg) no-repeat center top;
+  padding: 220px 0;
+  margin-top: 320px;
+}
+.type-1341 .grape h {
+  font: normal 24px/32px Libre Baskerville;
+}
+.type-1341 .grape p {
+  font: normal 16px/24px Varela Round;
+  color: #2c2c2c;
+  margin-top: 15px;
+  width: 79%;
+}
+.type-1341 .coffe {
+  text-align: center;
+}
+.type-1341 .coffe h {
+  font: normal 40px/32px Libre Baskerville;
+}
+.type-1341 .coffe p {
+  font: normal 15px/24px Varela Round;
+  color: #2c2c2c;
+  margin-top: 20px;
+  width: 90%;
+}
+.type-1341 .coffe img {
+  margin-bottom: 20px;
+}
+.type-1341 .blan {
+  background: url(../images/coffee-img-3.jpg) no-repeat center top;
+  padding: 260px 0;
+  margin-top: 320px;
+}
+.type-1341 .blan h {
+  font: normal 24px/32px Libre Baskerville;
+}
+.type-1341 .blan p {
+  font: normal 16px/24px Varela Round;
+  color: #2c2c2c;
+  margin-top: 15px;
+  width: 78%;
+}
+@media (max-width: 991px) {
+  .type-1341 .grape {
+    background: none;
+    padding: 0;
+  }
+  .type-1341 .grape p {
+    width: 100%;
+  }
+  .type-1341 .blan {
+    background: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .type-1341 .blan p {
+    width: 100%;
+  }
+  .type-1341 .coffe p {
+    width: 100%;
+  }
+  .type-1341 .news {
+    background-position: 50% -15%;
+  }
+}

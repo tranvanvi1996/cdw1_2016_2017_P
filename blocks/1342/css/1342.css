@@ -1,0 +1,137 @@
+.type-1342 {
+  padding: 0px 5px;
+}
+.type-1342 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.type-1342 .news-1 {
+  background: url(../images/coffee-photo-1.jpg) left center / auto no-repeat scroll;
+  padding-top: 100px;
+  padding-bottom: 0.05px;
+  min-height: 610px;
+}
+.type-1342 .news-2 {
+  background: url(../images/coffee-photo-2.jpg) right center / auto no-repeat scroll;
+  padding-top: 100px;
+  padding-bottom: 0.05px;
+  min-height: 610px;
+}
+.type-1342 .coffe {
+  text-align: center;
+}
+.type-1342 .coffe p {
+  font: normal 16px/24px Varela Round;
+  margin-bottom: 20px;
+  width: 92%;
+}
+.type-1342 .coffe h4 {
+  font: normal 24px/32px Libre Baskerville;
+  margin-bottom: 20px;
+}
+.type-1342 .coffe h6 {
+  font: normal 11px/12px Varela Round;
+  margin-bottom: 20px;
+}
+.type-1342 .coffe .box {
+  border: 1px solid #cb7152;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 150px;
+  height: 35px;
+  transition: 0.6s;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.type-1342 .coffe .box .text {
+  padding: 4px;
+  transition: 0.6s;
+}
+.type-1342 .coffe .box:hover {
+  background: #cb7152;
+}
+.type-1342 .coffe .box:hover .text {
+  color: #fff;
+  transform: translateY(-28px);
+}
+.type-1342 .coffe .sep-text {
+  margin-top: 69px;
+}
+.type-1342 .fp_box {
+  padding-right: 30px;
+}
+.type-1342 .fp_box h3 {
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+.type-1342 .fp_box .menu_description {
+  font-style: normal;
+  font-size: 12px;
+  color: #6b6b6b;
+}
+.type-1342 .fp_box .fp_price {
+  float: right;
+  right: 0;
+  color: #cb7152;
+}
+.type-1342 .fp_box h3:before {
+  display: block;
+  line-height: 1em;
+  font-size: 0.4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  content: "...................................................................................................................................................................................................................................................";
+  width: 100%;
+  overflow: hidden;
+  height: 10px;
+  top: 35px;
+  position: relative;
+}
+.type-1342 .fp_box:hover h3 {
+  color: #cb7152;
+}
+.type-1342 .detail {
+  border-right: 1px solid #c0c0c0;
+  background: #fff;
+  padding: 63px 0px;
+}
+.type-1342 .sep-text {
+  position: relative;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.type-1342 .sep-text h3 {
+  font: normal 40px/50px Libre Baskerville;
+}
+.type-1342 .sep-text .text {
+  color: #cb7152;
+  font-family: 'Handlee';
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
+.type-1342 .sep-text .text:before,
+.type-1342 .sep-text .text:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
+@media (max-width: 991px) {
+  .type-1342 .coffe {
+    margin-bottom: 50px;
+  }
+  .type-1342 .coffe p {
+    width: 100%;
+  }
+  .type-1342 .detail {
+    border-right: none;
+  }
+}
+@media (max-width: 479px) {
+  .type-1342 .sep-text h3 {
+    font-size: 140%;
+    line-height: 1.2em;
+  }
+}
