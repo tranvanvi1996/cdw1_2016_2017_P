@@ -24,7 +24,6 @@
     <body>
         <div class="type-1331">
             <div class="container">
-                <div class="row">
                     <img src="images/cook.jpg" alt=""/><br>
                     <h>Join the team!</h>
                     <p>
@@ -36,8 +35,6 @@
                         <div class="text">Apply Now</div>
                         <div class="text">Apply Now</div>
                     </div>
-
-                </div>
             </div>
         </div>
     </body>

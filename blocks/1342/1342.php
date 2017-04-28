@@ -20,9 +20,10 @@
 </head>
 
 <body>
-
+    
+   <div class="row">
     <div class="type-1342">
-        <div class="row">
+     
             <div class="col-md-2">
                 <div class="news-1"></div>
             </div>

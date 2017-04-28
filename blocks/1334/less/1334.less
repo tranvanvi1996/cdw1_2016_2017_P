@@ -1,6 +1,10 @@
 .type-1334 {
+    @color1: #fff;
+    @color2:#cb7152;
+        margin-bottom: 50px;
+    margin-top: 50px;
     .ornament-top {
-        background: #fff;
+        background: @color1;
         height: 26px;
         -webkit-mask-image: url(../images/ornament-top.svg);
         width: 156px;
@@ -9,7 +13,7 @@
         top: 8.1%;
     }
     .ornament-bottom {
-        background: #fff;
+        background: @color1;
         height: 26px;
         -webkit-mask-image: url(../images/ornament-bottom.svg);
         width: 156px;
@@ -17,10 +21,7 @@
         position: absolute;
         bottom: -38.5%;
     }
-    .margin {
-        margin-bottom: 150px;
-        margin-top: 150px;
-    }
+   
     .introduction {
         background: url(../images/section-title-bg-5.jpg) no-repeat center center;
         background-size: cover;
@@ -31,10 +32,11 @@
         padding: 335px 0;
     }
     .fp_box:hover h3 {
-        color: #cb7152;
+        color: @color2;
     }
-    span.fp_price {
-        color: #cb7152;
+    span {
+        color: @color2;
+         float: right;
     }
     .fp_box h3 {
         font-size: 16px;
@@ -53,9 +55,7 @@
     .sep-text .single .centered {
         text-align: center;
     }
-    .fp_price {
-        float: right;
-    }
+
     .fp_box h3:before {
         display: block;
         line-height: 1em;
@@ -72,7 +72,7 @@
     .detail {
         position: absolute;
         top: -10.5%;
-        background: #fff;
+        background: @color1;
         width: 48.6%;
         left: 25.7%;
         padding: 24px 0;
@@ -101,19 +101,19 @@
         text-align: left;
     }
     .sep-text .sep-text-line {
+        color: #333;
         display: inline-block;
         width: 30%;
         border-top: 0 solid;
         border-bottom: 1px solid;
-        color: #EDEDED;
         vertical-align: baseline;
     }
-    .sep-text .content {
+    .sep-text .content
+    {
+         margin: 0;
+        line-height: 1;
         padding-right: .7em;
         padding-left: .7em;
-    }
-    .sep-text .content,
-    .sep-text .sep-text-more {
         display: table-cell;
         vertical-align: middle;
         white-space: nowrap;
@@ -123,16 +123,11 @@
         letter-spacing: 6px;
     }
     .sep-text .text-divider-subtitle {
-        color: #cb7152;
+        color: @color2;
         font-family: 'Handlee';
         font-size: 1em;
         letter-spacing: 0.3em;
         padding-top: 10px;
-    }
-    .sep-text .content *,
-    .sep-text .sep-text-more * {
-        margin: 0;
-        line-height: 1;
     }
     .sep-text .text-divider-subtitle:before,
     .sep-text .text-divider-subtitle:after {
@@ -143,20 +138,21 @@
         font-size: 1.2em;
         padding: 0px 5px;
     }
-    .sep-text .sep-text-line,
-    {
-        color: #333;
-    }
     @media (max-width: 958px)
     {
         .detail {
     position: absolute;
     top: -10.5%;
-    background: #fff;
+    background: @color1;
     width: 96.6%;
     left: 1.7%;
     padding: 24px 0;
     border-radius: 20px;
 }   
+    }
+    @media (max-width: 395px){
+        .fp_box h3 {
+    font-size: 15px;
+        }
     }
 }

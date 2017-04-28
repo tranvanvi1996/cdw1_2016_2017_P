@@ -1,195 +1,197 @@
 .type-1344 {
-       padding: 0px 25px;
-    .coffe{
-            padding: 0 70px;
-            h2{
-                font: normal 55px/68px Libre Baskerville;
-                    margin: 40px 0;
-            }
-            p{
-                    font: normal 16px/24px Varela Round;
-                        width: 107%;
-            }
+    @color1: #cb7152;
+    @color2: #fff;
+    @color3: #000;
+    @position1: absolute;
+    @display1: none;
+    @width1: 100%;
+    @size1: 20px;
+    padding: 0px 25px;
+    .coffe {
+        padding: 0 70px;
+        h2 {
+            font: normal 55px/68px Libre Baskerville;
+            margin: 40px 0;
+        }
+        p {
+            font: normal 16px/24px Varela Round;
+            width: 107%;
+        }
     }
-    
     .carousel-inner {
-    position: relative;
-    width: 85%;
-    overflow: hidden;
-}
+        position: relative;
+        width: 85%;
+        overflow: hidden;
+    }
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 130%;
-       position: relative;
-       top: -30px;
-       left: -30px;
+        position: relative;
+        top: -30px;
+        left: -30px;
         margin: auto;
         transition: 1s;
-        
     }
-    #myCarousel{
-         img{
-          
-    position: relative;
-    left: -10%;
-     transition: 1s;
-    top: -10%;
-    }
-    .image{
+    #myCarousel {
+        img {
+            position: relative;
+            left: -10%;
+            transition: 1s;
+            top: -10%;
+        }
+        .image {
             height: 240px;
-    overflow: hidden;
-     transition: 1s;
-  
-    
-    
+            overflow: hidden;
+            transition: 1s;
+        }
     }
-    }
-   
     .carousel-control {
-        position: absolute;
+        position:@position1;
         top: 0;
         bottom: 0;
         left: 0;
         width: 15%;
-        font-size: 20px;
+        font-size: @size1;
         transition: 1s;
         opacity: 0;
-
     }
-   
     #myCarousel:hover .carousel-control {
         opacity: 1;
     }
-    #myCarousel:hover .carousel-inner .item .image img{
-          transform: scale(1.1);
-    transition: 1s;
+    #myCarousel:hover .carousel-inner .item .image img {
+        transform: scale(1.1);
+        transition: 1s;
     }
-    .glyphicon-chevron-left{
-        position: absolute;
-            top: 53%;
-    left: -43%;
+    .glyphicon-chevron-left {
+        position:@position1;
+        top: 53%;
+        left: -43%;
         z-index: 5;
         display: inline-block;
-        color: #000;
-        background: #fff;
+        color: @color3;
+        background: @color2;
         border-radius: 50%;
         padding: 15px;
-        
     }
-    .glyphicon-chevron-left:hover{
-        background: #cb7152;
-        color: #fff;
+    .glyphicon-chevron-left:hover {
+        background: @color1;
+        color: @color2;
     }
     .glyphicon-chevron-right {
-
-        position: absolute;
-        color: #000;
-        background: #fff;
+        position:@position1;
+        color: @color3;
+        background: @color2;
         border-radius: 50%;
         padding: 15px;
-            top: 53%;
-    left: 535%;
+        top: 53%;
+        left: 535%;
         z-index: 5;
-        
-        color: #000;
+        color: @color3;
     }
-    .glyphicon-chevron-right:hover{
-        background: #cb7152;
-        color: #fff;
+    .glyphicon-chevron-right:hover {
+        background: @color1;
+        color: @color2;
     }
     .carousel-indicators li {
-        display: none;
-
+        display: @display1;
     }
     .item {
-        width: 100%;
-        border: solid 1px #EDEDED;  
+        width: @width1;
+        border: solid 1px #EDEDED;
         text-align: center;
-        background: #fff;
-        .back{
-            display: none;
-            padding: 0px 85px;
-            position: absolute;
+        background: @color2;
+        .back {
+            display: @display1;
+            margin-left: 35%;
+            position:@position1;
             bottom: 210px;
-            h4{
-                background: #fff;
+            h4 {
+                background: @color2;
                 font-size: 12px;
-                border-radius: 20px;
+                border-radius: @size1;
                 padding: 10px 10px;
             }
-            h4:hover{
-                background: #000;
-                color: #fff;
+            h4:hover {
+                background: @color3;
+                color: @color2;
             }
         }
-
-
-        a{
+        a {
             color: #6b6b6b;
-            text-decoration: none;
+            text-decoration: @display1;
         }
-        a:hover{
-            color: #cb7152;
+        a:hover {
+            color: @color1;
         }
-        span{
+        span {
             font: normal 16px/18px 'Varela Round';
         }
         h5 {
-            margin-top: 20px;
+            margin-top: @size1;
             position: relative;
-            float: none;
+            float: @display1;
             text-transform: uppercase;
             font-family: 'Libre Baskerville';
             line-height: 1.3em;
-
             font-size: 10px;
             letter-spacing: 1px;
             color: #2c2c2c;
-
         }
-        h3{
+        h3 {
             font-size: 18px;
-            color: #000000;
-            margin-bottom: 20px;
-
+            color: @color3;
+            margin-bottom: @size1;
         }
-        h3:hover{
-            color: #cb7152;
+        h3:hover {
+            color: @color1;
         }
-
-        h{
+        h {
             font: normal 16px/18px 'Varela Round';
         }
-
     }
-
-    .news{
-        margin-bottom: 20px;
+    .news {
+        margin-bottom: @size1;
     }
-    #myCarousel:hover{
-        .carousel-inner:hover{
-            .back{
+    #myCarousel:hover {
+        .carousel-inner:hover {
+            .back {
                 display: block;
             }
-            .carousel-inner:hover{
-                .glyphicon-chevron-left{
+            .carousel-inner:hover {
+                .glyphicon-chevron-left {
                     display: block;
                 }
-
             }
-
         }
     }
-    @media (max-width:991px){
-        .photo{
-            img{
-                display: none;
+    @media (max-width:991px) {
+        .photo {
+            img {
+                display: @display1;
             }
         }
         .carousel-inner {
-   
-    width: 100%;
-
-}
+            width: @width1;
+        }
+        #myCarousel .image {
+            height: 500px;
+        }
+        #myCarousel img {
+            height: 500px;
+            left: 0;
+            width: @width1;
+        }
+        .glyphicon-chevron-left {
+            top: 35%;
+            left: 3%;
+        }
+        .glyphicon-chevron-right {
+            top: 35%;
+            left: 620%;
+        }
+        .item .back {
+            margin-left: 47%;
+            bottom: 35%;
+        }
     }
 }

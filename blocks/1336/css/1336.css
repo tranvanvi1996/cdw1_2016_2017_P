@@ -38,8 +38,9 @@
 .type-1336 .fp_box:hover h3 {
   color: #cb7152;
 }
-.type-1336 span.fp_price {
+.type-1336 span {
   color: #cb7152;
+  float: right;
 }
 .type-1336 .fp_box h3 {
   font-size: 16px;
@@ -54,9 +55,6 @@
 }
 .type-1336 .sep-text .single .centered {
   text-align: center;
-}
-.type-1336 .fp_price {
-  float: right;
 }
 .type-1336 .fp_box h3:before {
   display: block;

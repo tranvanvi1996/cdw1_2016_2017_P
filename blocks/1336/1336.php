@@ -21,8 +21,9 @@
     <body>
         <div class="container">
             <div class="row">
+                 <div class="type-1336">
                 <div class="col-md-4">
-                    <div class="type-1336">
+                   
                         <div class="ornament-top"></div>
                         <div class="news">
                             <div class="sep-text single centered">
@@ -43,23 +44,23 @@
                             </div>
                             <img src="images/header-small-1.jpg" alt="" width="100%" />
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Caffè macchiato<span class="fp_price">$5.90</span></h3>
+                                <h3>Caffè macchiato<span>$5.90</span></h3>
                                 <div class="menu_description">An espresso coffee drink with a small amount of milk, usually foamed.</div>
                             </div>
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Cappuccino<span class="fp_price">$5.90</span></h3>
+                                <h3>Cappuccino<span>$5.90</span></h3>
                                 <div class="menu_description">A cappuccino is an Italian coffee drink that is traditionally prepared with espresso, hot milk, and steamed milk foam.</div>
                             </div>
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Caffe Latte<span class="fp_price">$5.90</span></h3>
+                                <h3>Caffe Latte<span>$5.90</span></h3>
                                 <div class="menu_description">A Latte is a coffee drink made with espresso and steamed milk.</div>
                             </div>
                         </div>
                         <div class="ornament-bottom"></div>
                     </div>
-                </div>
+              
                 <div class="col-md-4">
-                    <div class="type-1336">
+                  
                         <div class="ornament-top1"></div>
                         <div class="background">
                             <div class="top">
@@ -84,9 +85,9 @@
                         </div>
                         <div class="ornament-bottom2"></div>
                     </div>
-                </div>
+               
                 <div class="col-md-4">
-                    <div class="type-1336">
+                 
                         <div class="ornament-top"></div>
                         <div class="news">
                             <div class="sep-text single centered">
@@ -106,15 +107,15 @@
                             </div>
                             <img src="images/header-small-2.jpg" alt="" width="100%" />
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Caffè macchiato<span class="fp_price">$5.90</span></h3>
+                                <h3>Caffè macchiato<span>$5.90</span></h3>
                                 <div class="menu_description">An espresso coffee drink with a small amount of milk, usually foamed.</div>
                             </div>
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Cappuccino<span class="fp_price">$5.90</span></h3>
+                                <h3>Cappuccino<span>$5.90</span></h3>
                                 <div class="menu_description">A cappuccino is an Italian coffee drink that is traditionally prepared with espresso, hot milk, and steamed milk foam.</div>
                             </div>
                             <div class="fp_box">
-                                <h3 class="" title="American Brunch Combo Menu">Caffe Latte<span class="fp_price">$5.90</span></h3>
+                                <h3>Caffe Latte<span>$5.90</span></h3>
                                 <div class="menu_description">A Latte is a coffee drink made with espresso and steamed milk.</div>
                             </div>
                         </div>

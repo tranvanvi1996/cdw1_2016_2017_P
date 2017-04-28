@@ -23,24 +23,25 @@
 </head>
 
 <body>
-    <div class="type-1335">
+ 
         <div class="container">
             <div class="row">
+                   <div class="type-1335">
                 <ul class=" nav nav-tabs">
                     <li>
-                        <a data-toggle="tab" href="#tab-1-0-the-story"> <span class="title-text">The Story</span></a>
+                        <a data-toggle="tab" href="#1"> <span class="title-text">The Story</span></a>
                     </li>
                     <li>
-                        <a data-toggle="tab" href="#tab-1-1-the-team"> <span class="title-text">The Team</span></a>
+                        <a data-toggle="tab" href="#2"> <span class="title-text">The Team</span></a>
                     </li>
                     <li>
-                        <a data-toggle="tab" href="#tab-1-2-press-awards"> <span class="title-text">Press & Awards</span></a>
+                        <a data-toggle="tab" href="#3"> <span class="title-text">Press & Awards</span></a>
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade in active" id="tab-1-0-the-story">
+                    <div class="tab-pane fade in active" id="1">
                         <p style="text-align: center;"><span><img src="images/cook.jpg" alt=""/></span>
-                            <div class="sep-text single centered">
+                            <div class="sep-text">
                                 <div class="sep-text-before">
                                     <div class="sep-text-line"></div>
                                 </div>
@@ -75,10 +76,10 @@
                                 <p><img src="images/sign.jpg" alt="" /></p>
                             </div>
                     </div>
-                    <div class="tab-pane fade" id="tab-1-1-the-team">
+                    <div class="tab-pane fade" id="2">
                         <p style="text-align: center;"><span> <img src="images/cook.jpg" alt=""/></span>
 
-                            <div class="sep-text single centered">
+                            <div class="sep-text">
                                 <div class="sep-text-before">
                                     <div class="sep-text-line"></div>
                                 </div>
@@ -194,10 +195,10 @@
                                 </div>
                             </div>
                     </div>
-                    <div class="tab-pane fade" id="tab-1-2-press-awards">
+                    <div class="tab-pane fade" id="3">
                         <p style="text-align: center;">
                             <img src="images/cook.jpg" alt="" />
-                            <div class="sep-text single centered">
+                            <div class="sep-text">
                                 <div class="sep-text-before">
                                     <div class="sep-text-line"></div>
                                 </div>

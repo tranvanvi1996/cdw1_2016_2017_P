@@ -94,7 +94,7 @@
 }
 .type-1344 .item .back {
   display: none;
-  padding: 0px 85px;
+  margin-left: 35%;
   position: absolute;
   bottom: 210px;
 }
@@ -131,7 +131,7 @@
 }
 .type-1344 .item h3 {
   font-size: 18px;
-  color: #000000;
+  color: #000;
   margin-bottom: 20px;
 }
 .type-1344 .item h3:hover {
@@ -155,5 +155,25 @@
   }
   .type-1344 .carousel-inner {
     width: 100%;
+  }
+  .type-1344 #myCarousel .image {
+    height: 500px;
+  }
+  .type-1344 #myCarousel img {
+    height: 500px;
+    left: 0;
+    width: 100%;
+  }
+  .type-1344 .glyphicon-chevron-left {
+    top: 35%;
+    left: 3%;
+  }
+  .type-1344 .glyphicon-chevron-right {
+    top: 35%;
+    left: 620%;
+  }
+  .type-1344 .item .back {
+    margin-left: 47%;
+    bottom: 35%;
   }
 }

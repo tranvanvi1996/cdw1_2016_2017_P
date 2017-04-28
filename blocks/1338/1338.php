@@ -21,8 +21,9 @@
 </head>
 
 <body>
+   
     <div class="type-1338">
-
+ <div class="row">
         <div class="theme">
             <p>Theme Options</p>
             <div class="page-header-line"></div>
@@ -174,7 +175,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 
 </html>

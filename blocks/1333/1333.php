@@ -28,12 +28,11 @@
                             <div class="vamtam-parallax-bg-wrapper">
                                 <div class="vamtam-parallax-bg-img"></div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-3">
+                            <div class="row">  
                                     <div class="vamtam-grid first unextended">
                                         <p>&nbsp;</p>
                                     </div>
-                                </div>
+                            
                                 <div class="vamtam-grid vamtam-add-ornaments-all">
                                     <div class="vamtam-grid first unextended ">
                                         <p>

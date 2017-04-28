@@ -168,7 +168,7 @@
   white-space: normal;
 }
 .type-1339 .team-member .share-icons,
-.type-1339 .team-member:hover .share-icons .icon {
+.type-1339 .team-member:hover .share-icons {
   margin: 10px 5px 0px 5px;
 }
 .type-1339 .team-member .share-icons {
@@ -190,7 +190,7 @@
 .type-1339 .team-member .share-icons a {
   display: inline-block;
 }
-.type-1339 .team-member .share-icons a:hover .icon {
+.type-1339 .team-member .share-icons a:hover {
   background: #fff;
   color: #cb7152 !important;
 }

@@ -21,13 +21,14 @@
 
 <body>
     <div class="row">
+         <div class="type-1337">
         <div class="col-md-6">
-            <div class="type-1337">
+           
                 <div class="introduction"></div>
-            </div>
+          
         </div>
         <div class="col-md-6">
-            <div class="type-1337">
+          
                 <div class="detail">
                     <div class="sep-text single centered">
                         <img src="images/illustration-1.svg" alt="illustration-1" style="margin-bottom: 15px;">
@@ -45,23 +46,23 @@
                         </div>
                     </div>
                     <div class="fp_box">
-                        <h3 class="" title="American Brunch Combo Menu">American Brunch Combo Menu<span class="fp_price">$ 15</span></h3>
+                        <h3>American Brunch Combo Menu<span>$ 15</span></h3>
                         <div class="menu_description">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</div>
                     </div>
                     <div class="fp_box">
-                        <h3 class="" title="American Brunch Combo Menu">American Brunch Combo Menu<span class="fp_price">$ 15</span></h3>
+                        <h3>American Brunch Combo Menu<span>$ 15</span></h3>
                         <div class="menu_description">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</div>
                     </div>
                     <div class="fp_box">
-                        <h3 class="" title="American Brunch Combo Menu">American Brunch Combo Menu<span class="fp_price">$ 15</span></h3>
+                        <h3>American Brunch Combo Menu<span>$ 15</span></h3>
                         <div class="menu_description">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</div>
                     </div>
                     <div class="fp_box">
-                        <h3 class="" title="American Brunch Combo Menu">American Brunch Combo Menu<span class="fp_price">$ 15</span></h3>
+                        <h3>American Brunch Combo Menu<span>$ 15</span></h3>
                         <div class="menu_description">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</div>
                     </div>
                     <div class="fp_box">
-                        <h3 class="" title="American Brunch Combo Menu">American Brunch Combo Menu<span class="fp_price">$ 15</span></h3>
+                        <h3>American Brunch Combo Menu<span>$ 15</span></h3>
                         <div class="menu_description">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</div>
                     </div>
                     <p>❈</p>

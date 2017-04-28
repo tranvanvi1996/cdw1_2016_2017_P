@@ -3,16 +3,20 @@
     @color2: #fff;
     @color3: #cb7152;
     @text1: center;
+    @size1: 30%;
+    @size2: 20px;
+    @size3: 40px;
+    @size4: 16px;
     html.touchevents .team-member .team-member-info h6:after, .team-member:hover .team-member-info h6:after {
     width: 50px;
 }
     .fa{
     margin: 0px 5px 0px 5px;
-    width: 40px;
-    height: 40px;
+    width: @size3;
+    height: @size3;
     color: @color2;
     text-align: @text1;
-    font-size: 16px!important;
+    font-size: @size4!important;
     line-height: 1;
     display: inline-block;
     padding: 10px!important;
@@ -25,21 +29,21 @@
     color: @color3;
 }
     .col-md-6{
-        font-size: 16px;
+        font-size: @size4;
         li{
             margin: 10px 0;
         }
     }
     span.title-text{
-        font-size: 20px;
+        font-size: @size2;
     }
 
     p{
-        font-size: 16px;
+        font-size: @size4;
     }
     .logo {
         text-align: @text1;
-        margin-bottom: 40px;
+        margin-bottom: @size3;
     }
     .news {
         margin-top: 30px;
@@ -73,7 +77,7 @@
         margin-right: -25px;
     }
     .content {
-        margin-bottom: 40px;
+        margin-bottom: @size3;
         h3 {
             text-align: @text1;
         }
@@ -85,7 +89,7 @@
     }
     .sep-text .sep-text-line {
         display: inline-block;
-        width: 30%;
+        width: @size1;
         border-top: 0 solid;
         border-bottom: 1px solid;
         color: #EDEDED;
@@ -94,14 +98,14 @@
     .sep-text-before .sep-text-line {
         top: 37%;
         width: 13%;
-        left: 32%;
+        left: @size1;
         position: absolute;
     }
     .sep-text-after .sep-text-line {
         position: absolute;
         top: 37%;
         width: 13%;
-        right: 31.5%;
+        right: @size1;
     }
     html,
     body {
@@ -135,7 +139,7 @@
     .color-h3,
     .color-h3 a {
         color: @color1;
-        font: normal 40px/50px Libre Baskerville;
+        font: normal @size3/50px Libre Baskerville;
     }
     h4,
     h4 a,
@@ -152,7 +156,7 @@
          font: normal 11px/12px Varela Round;
     }
     h3 em {
-        font: normal 40px/50px 'Libre Baskerville';
+        font: normal @size3/50px 'Libre Baskerville';
         color: @color1;
     }
     h4 em {
@@ -186,7 +190,7 @@
     }
     .team-member {
         padding: 0!important;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px @size2 0px;
         border-radius: 6px;
         overflow: hidden;
         border: solid 1px #EDEDED;
@@ -202,16 +206,16 @@
     .team-member img {
         transition: opacity 0.40s, transform 0.60s;
         transform: scale(1.10);
-        border-radius: 16px;
+        border-radius: @size4;
         width: 100%;
     }
     .team-member .sep-text {
-        margin: 0 0 20px 0;
+        margin: 0 0 @size2 0;
     }
     .team-member .team-member-info {
         background: @color2;
         margin-top: 0px;
-        padding: 15px 20px 20px 20px;
+        padding: 15px @size2 @size2 @size2;
     }
     .team-member .team-member-info a {
         font-size: 14px;
@@ -233,7 +237,7 @@
     .team-member .team-member-info h6:after {
         content: "";
         display: block;
-        width: 20px;
+        width: @size2;
         height: 1px;
         margin: 15px 0px 5px 0px;
         transition: all .6s;
@@ -255,7 +259,7 @@
     }
     .team-member,
     .team-member:hover {
-        box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 1px @size2 0px rgba(0, 0, 0, 0.1);
     }
     .team-member .team-member-bio,
     .team-member:hover .team-member-bio {
@@ -297,11 +301,11 @@
     }
     .team-member .share-icons .icon {
         margin: 0px 5px 0px 5px;
-        width: 16px;
-        height: 16px;
+        width: @size4;
+        height: @size4;
         color: @color2;
         text-align: @text1;
-        font-size: 16px!important;
+        font-size: @size4!important;
         line-height: 1;
         display: inline-block;
         padding: 10px!important;

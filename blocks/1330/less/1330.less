@@ -1,4 +1,9 @@
 .type-1330 {
+    @color1: #f4f4f4;
+    @color2: #23282F;
+    @size1: 20px;
+    @size2: 30%;
+    @size3: 40%;
     .row{
         margin: 0;
         padding: 0;
@@ -12,11 +17,11 @@
         margin-top: 70px;
     }
     h {
-        color: #f4f4f4;
+        color: @color1;
         font: normal 56px/68px Libre Baskerville;
     }
     p {
-        color: #f4f4f4;
+        color: @color1;
         margin: 1em 0;
         font: normal 16px/24px Varela Round;
         width: 90.5%;
@@ -41,14 +46,14 @@
         padding: 0px 5px;
     }
     .ornament-top {
-        background: #23282F;
+        background: @color2;
         height: 26px;
         -webkit-mask-image: url(../images/ornament-top.svg);
         width: 156px;
         margin-left: 44%;
     }
     .ornament-bottom {
-        background: #23282F;
+        background: @color2;
         height: 26px;
         -webkit-mask-image: url(../images/ornament-bottom.svg);
         width: 156px;
@@ -61,14 +66,14 @@
     }
     @media (max-width: 992px) {
         .introduction {
-            margin: 0 20px;
-            border-radius: 20px;
+            margin: 0 @size1;
+            border-radius: @size1;
         }
         .ornament-top {
-            margin-left: 40%;
+            margin-left: @size3;
         }
         .ornament-bottom {
-            margin-left: 40%;
+            margin-left: @size3;
         }
     }
     @media (max-width: 557px) {
@@ -76,10 +81,10 @@
             width: 100%;
         }
         .ornament-top {
-            margin-left: 30%;
+            margin-left: @size2;
         }
         .ornament-bottom {
-            margin-left: 30%;
+            margin-left: @size2;
         }
     }
 }
