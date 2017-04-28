@@ -1,0 +1,60 @@
+.type-KM {
+    @color1: #ccc;
+    @size1: 25px;
+    @size2: 35px;
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    b {
+        font-size: @size1;
+        letter-spacing: 2px;
+    }
+    .top {
+        border-top: 1px solid @color1;
+        text-align: center;
+        padding: 55px @size1 30px @size1;
+        border-bottom: 1px solid @color1;
+        .fa {
+            font-size: @size2;
+            color: @color1;
+        }
+        .fa-bars {
+            float: left;
+            cursor: pointer;
+        }
+        .fa-plus {
+            float: right;
+        }
+    }
+    .banner {
+        border-bottom: 1px solid @color1;
+        padding: @size2 0 @size2 0;
+        p {
+            color: #b9b9b9;
+            font-size: @size1;
+            margin-top: 15px;
+        }
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    @media (max-width:991px) {
+        .banner {
+            img {
+                width: 100px;
+                float: left;
+            }
+            .text {
+                position: relative;
+                left: 3%;
+            }
+        }
+    }
+    @media (max-width:767px) {
+        .text p {
+            width: 92%;
+        }
+    }
+}

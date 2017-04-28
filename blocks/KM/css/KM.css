@@ -1,0 +1,53 @@
+.type-KM .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.type-KM b {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.type-KM .top {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 55px 25px 30px 25px;
+  border-bottom: 1px solid #ccc;
+}
+.type-KM .top .fa {
+  font-size: 35px;
+  color: #ccc;
+}
+.type-KM .top .fa-bars {
+  float: left;
+  cursor: pointer;
+}
+.type-KM .top .fa-plus {
+  float: right;
+}
+.type-KM .banner {
+  border-bottom: 1px solid #ccc;
+  padding: 35px 0 35px 0;
+}
+.type-KM .banner p {
+  color: #b9b9b9;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.type-KM .banner img {
+  width: 100%;
+  border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .type-KM .banner img {
+    width: 100px;
+    float: left;
+  }
+  .type-KM .banner .text {
+    position: relative;
+    left: 3%;
+  }
+}
+@media (max-width: 767px) {
+  .type-KM .text p {
+    width: 92%;
+  }
+}
