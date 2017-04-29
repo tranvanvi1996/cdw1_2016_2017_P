@@ -1,0 +1,57 @@
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/VarelaRound-Regular.ttf");
+}
+.type-1352 {
+  padding: 4% 0;
+  font-family: myfont;
+}
+.type-1352 .pd {
+  margin-left: 0;
+  margin-right: 0;
+}
+.type-1352 form {
+  padding: 3%;
+  background: #FAFAFA;
+  border: 1px solid #EDEDED;
+}
+.type-1352 form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+.type-1352 form textarea {
+  padding: 10px;
+  border-color: #eee;
+  width: 100%;
+}
+.type-1352 form #ip1 {
+  height: 139px;
+}
+.type-1352 form label {
+  font-size: 18px;
+  color: black;
+  font-weight: normal;
+}
+.type-1352 form #label1 {
+  margin-bottom: 50px;
+}
+.type-1352 form #label {
+  display: block;
+  font-size: 11px;
+}
+.type-1352 form input[type="submit"] {
+  margin-top: 15px;
+  border: 1px solid #E4BBAD;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: white;
+  color: black;
+  transition: 0.4s;
+}
+.type-1352 form input[type="submit"]:hover {
+  background: black;
+  color: white;
+  border-color: black;
+}

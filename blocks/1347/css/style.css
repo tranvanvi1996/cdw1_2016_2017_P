@@ -20,6 +20,15 @@ a {
   font-size: 55px;
   margin-top: -5px;
 }
+@media (max-width: 486px) {
+  .cdw2 .menu .title hr {
+    display: none;
+  }
+  .cdw2 .menu .title {
+    display: block;
+    text-align: center;
+  }
+}
 .cdw2 .menu .span span {
   color: #CB7152;
 }

@@ -1,0 +1,35 @@
+.type-1355 {
+  margin: 20px 0;
+}
+.type-1355 #demos {
+  margin: 0;
+}
+.type-1355 #demos .pd {
+  padding: 0 10%;
+}
+.type-1355 #demos .item {
+  text-align: center;
+}
+.type-1355 #demos .item h1 {
+  font-size: 24px;
+  color: #000000;
+}
+.type-1355 #demos .item .star {
+  width: 218px;
+  margin: 20px auto;
+}
+.type-1355 #demos .item .star .icon {
+  float: left;
+}
+.type-1355 #demos .item .star .icon i {
+  font-weight: normal;
+  color: yellow;
+  font-size: 16px;
+}
+.type-1355 #demos .item .star span {
+  font-size: 10px;
+  color: #6b6b6b;
+}
+.type-1355 #demos .item p {
+  margin: 20px 0 30px 0;
+}

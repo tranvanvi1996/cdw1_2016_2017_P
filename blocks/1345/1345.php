@@ -4,8 +4,6 @@
 
         <!-- head -->
         <meta charset="utf-8">
-        <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/header-logo.css" rel="stylesheet" type="text/css"/>
         <!--..-->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -14,17 +12,12 @@
         <!--..-->
         <!--......................-->
         <!--...-->
-        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-        <script type="text/javascript" src="engine1/jquery.js"></script>
-        <script src="js/owl.carousel.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>    
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <!--..-->
         <!--.....-->
         <script>
-
-
             (function ($) {
                 $.fn.menumaker = function (options) {
                     var cssmenu = $(this), settings = $.extend({
@@ -106,7 +99,7 @@
     </head>
     <body>
 
-        <div class="cdw2">
+        <div class="type-1345">
             <section style="position: relative;">
                 <header style="position: relative;">
                     <div class="container">

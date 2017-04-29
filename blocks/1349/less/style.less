@@ -1,0 +1,117 @@
+body {
+	background: url(https://vip-restaurant.vamtam.com/wp-content/uploads/2014/04/slider-about-bg.jpg) no-repeat fixed center center transparent;
+	background-size: cover;
+	font-family: "Calibri";
+}
+@cltext: #cb9252;
+.project {
+	padding: 80px 0;
+	.b {padding: 0 8%;}
+	@media (max-width: 1200px)
+	{
+		.b {padding: 0 4%;}
+	}
+	.image {
+		text-align: center;
+	}
+	.text {
+		margin: 32px 0;
+		text-align: center;
+		h1 {
+			font-size: 30px;
+			color: @cltext;
+		}
+		p {
+			margin-top: 5px;
+			font-size: 22px;
+			color:white;
+		}
+	}
+	.sub {
+		clear:both;
+		padding: 66px 0;
+		text-align: center;
+		span {
+			font-size: 14px;
+			color: @cltext;
+			position: relative;
+			top: 45px;
+		}
+		h4 {
+			font-size: 18px;
+			color: #ffefdf;
+			font-weight: bold;
+		}
+		.input {
+			margin: 10px 0;	
+			input[type="text"]
+			{
+				padding: 15px 15px;
+				width: 353px;
+				max-width: 353px;
+				border-radius: 32px;
+				border: none;
+			}
+			input[type="submit"]
+			{
+				margin: 0 10px;
+				background: @cltext;
+				padding: 17px 15px;
+				border: none;
+				width: 87px;
+				color:white;
+				border-radius: 25px
+
+			}
+			input[type="submit"]:hover
+			{background: black;}
+			@media (max-width: 620px)
+			{
+				input[type="text"] { padding: 8px 15px;}
+				input[type="submit"] {
+					width: 62px;
+					padding: 10px 15px;
+				}
+			}
+			@media (max-width: 460px)
+			{
+				input[type="text"]
+				{
+					    padding: 14px 15px;
+    margin-bottom: 19px;
+				}
+				input[type="submit"] {
+					    width: 85px;
+    padding: 16px 15px;
+				}
+			}
+		}
+	}
+	.time {
+		margin: 20px 0;
+		text-align: center;
+		.a {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		h5 {
+			margin: 20px 0;
+			font-size: 18px;
+			color: #ffefdf;
+		}
+		.layout {
+			padding: 10px ;		
+			text-align: center;
+			height: 70px;
+			border-radius: 100%;
+			span {
+				color:@cltext;
+				font-size: 48px;
+				background: black;
+				padding: 2px 19px;
+				border-radius: 100%;
+				background: black;
+			}
+		}
+	}
+}

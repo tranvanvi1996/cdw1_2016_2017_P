@@ -1,0 +1,115 @@
+body {
+  background: url(https://vip-restaurant.vamtam.com/wp-content/uploads/2014/04/slider-about-bg.jpg) no-repeat fixed center center transparent;
+  background-size: cover;
+  font-family: "Calibri";
+}
+.project {
+  padding: 80px 0;
+}
+.project .b {
+  padding: 0 8%;
+}
+@media (max-width: 1200px) {
+  .project .b {
+    padding: 0 4%;
+  }
+}
+.project .image {
+  text-align: center;
+}
+.project .text {
+  margin: 32px 0;
+  text-align: center;
+}
+.project .text h1 {
+  font-size: 30px;
+  color: #cb9252;
+}
+.project .text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: white;
+}
+.project .sub {
+  clear: both;
+  padding: 66px 0;
+  text-align: center;
+}
+.project .sub span {
+  font-size: 14px;
+  color: #cb9252;
+  position: relative;
+  top: 45px;
+}
+.project .sub h4 {
+  font-size: 18px;
+  color: #ffefdf;
+  font-weight: bold;
+}
+.project .sub .input {
+  margin: 10px 0;
+}
+.project .sub .input input[type="text"] {
+  padding: 15px 15px;
+  width: 353px;
+  max-width: 353px;
+  border-radius: 32px;
+  border: none;
+}
+.project .sub .input input[type="submit"] {
+  margin: 0 10px;
+  background: #cb9252;
+  padding: 17px 15px;
+  border: none;
+  width: 87px;
+  color: white;
+  border-radius: 25px;
+}
+.project .sub .input input[type="submit"]:hover {
+  background: black;
+}
+@media (max-width: 620px) {
+  .project .sub .input input[type="text"] {
+    padding: 8px 15px;
+  }
+  .project .sub .input input[type="submit"] {
+    width: 62px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 460px) {
+  .project .sub .input input[type="text"] {
+    padding: 14px 15px;
+    margin-bottom: 19px;
+  }
+  .project .sub .input input[type="submit"] {
+    width: 85px;
+    padding: 16px 15px;
+  }
+}
+.project .time {
+  margin: 20px 0;
+  text-align: center;
+}
+.project .time .a {
+  padding-left: 0;
+  padding-right: 0;
+}
+.project .time h5 {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #ffefdf;
+}
+.project .time .layout {
+  padding: 10px;
+  text-align: center;
+  height: 70px;
+  border-radius: 100%;
+}
+.project .time .layout span {
+  color: #cb9252;
+  font-size: 48px;
+  background: black;
+  padding: 2px 19px;
+  border-radius: 100%;
+}
