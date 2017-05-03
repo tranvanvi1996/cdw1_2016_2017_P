@@ -1,0 +1,184 @@
+body {
+    background-color: #f6f6f6;
+}
+.type-1368 {
+    @font-face {
+        font-family: 'Handlee';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/Handlee-Regular.ttf');
+    }
+    .introduction {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        background: url(../images/section-title-bg-7.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 0.05px;
+        padding-bottom: 0.05px;
+        position: relative;
+        padding: 435px 0;
+        .detail {
+            position: absolute;
+            top: -10.5%;
+            background: #fff;
+            width: 48.6%;
+            left: 25.7%;
+            padding: 24px 0;
+            border-radius: 20px;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+            .sep-text {
+                position: relative;
+                text-align: center;
+                padding-bottom: 7px;
+                img {
+                    margin-bottom: 5px;
+                }
+                .single .centered {
+                    text-align: center;
+                }
+            }
+        }
+        .detail:after {
+            display: block;
+            background: #fff;
+            height: 26px;
+            content: " ";
+            -webkit-mask-image: url(../images/ornament-bottom.svg);
+            mask: url(../images/ornament-bottom.svg);
+            width: 156px;
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            margin-left: -78px;
+            z-index: 10;
+        }
+        .detail:before {
+            display: block;
+            background: #fff;
+            height: 26px;
+            content: " ";
+            -webkit-mask-image: url(../images/ornament-top.svg);
+            mask: url(../images/ornament-top.svg);
+            width: 156px;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            margin-left: -78px;
+            z-index: 10;
+        }
+    }
+    .fp_box:hover h3 {
+        color: #cb7152;
+    }
+    span.fp_price {
+        color: #cb7152;
+    }
+    .fp_box h3 {
+        font-size: 16px;
+        padding-bottom: 12px;
+        transition: all .3s;
+    }
+    .menu_description {
+        font-style: normal;
+        font-size: 12px;
+    }
+    .fp_box .menu_description {
+        color: #6b6b6b;
+    }
+    .fp_box {
+        padding: 0px 55px;
+    }
+    .fp_price {
+        float: right;
+    }
+    .fp_box h3:before {
+        display: block;
+        line-height: 1em;
+        font-size: 0.4em;
+        letter-spacing: 4px;
+        color: #6b6b6b;
+        content: "...................................................................................................................................................................................................................................................";
+        width: 100%;
+        overflow: hidden;
+        height: 10px;
+        top: 35px;
+        position: relative;
+    }
+
+
+
+    .sep-text.centered .sep-text-before,
+    .sep-text.centered .sep-text-after {
+        width: 50%;
+        font-size: 10px;
+    }
+    .sep-text .sep-text-before {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-align: right;
+    }
+    .sep-text .sep-text-after {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-align: left;
+    }
+    .sep-text .sep-text-line {
+        display: inline-block;
+        width: 30%;
+        border-top: 0 solid;
+        border-bottom: 1px solid;
+        color: #EDEDED;
+        vertical-align: baseline;
+    }
+    .sep-text .content {
+        padding-right: .7em;
+        padding-left: .7em;
+    }
+    .sep-text .content,
+    .sep-text {
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    .text-divider-double {
+        letter-spacing: 6px;
+        font: normal 60px/68px Libre Baskerville;
+    }
+    .sep-text .text-divider-subtitle {
+        color: #cb7152;
+        font-family: 'Handlee';
+        font-size: 1.2em;
+        letter-spacing: 0.3em;
+        padding-top: 10px;
+    }
+
+    .sep-text .text-divider-subtitle:before,
+        .sep-text .text-divider-subtitle:after {
+        display: inline-block;
+        width: auto;
+        height: 15px;
+        content: "~";
+        font-size: 1.2em;
+        padding: 0px 5px;
+    }
+    .sep-text .sep-text-line,
+    {
+        color: #333;
+    }
+    @media (max-width: 960px){
+        .detail {
+            width: 96.6% !important;
+            left: 1.7% !important;
+
+        }
+        .fp_box {
+            padding: 0px 20px;
+        }
+    }
+
+}

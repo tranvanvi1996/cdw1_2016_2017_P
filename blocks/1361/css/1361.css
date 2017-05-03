@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Handlee-Regular.ttf');
+}
+.type_1361 .sep-text {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.type_1361 .sep-text .sep-text-before {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.type_1361 .sep-text .sep-text-after {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+.type_1361 .sep-text .sep-text-line {
+  display: inline-block;
+  width: 30%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.type_1361 .sep-text .content {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-right: .7em;
+  padding-left: .7em;
+}
+.type_1361 .sep-text .content h2 {
+  font: 400 56px/68px Libre Baskerville;
+  color: #000000;
+}
+.type_1361 .sep-text .content * {
+  margin: 0;
+  line-height: 1;
+}
+.type_1361 .sep-text .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  padding-top: 10px;
+}
+.type_1361 .sep-text .text-divider-subtitle:before,
+.type_1361 .sep-text .text-divider-subtitle:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
+.type_1361 .sep-text:last-child {
+  margin-bottom: 20px;
+}
+.type_1361 .sep-text.centered .sep-text-after,
+.type_1361 .sep-text.centered .sep-text-before {
+  width: 50%;
+  font-size: 10px;
+}
+.type_1361 .blockquote {
+  overflow: auto;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  padding-left: 0;
+  border-left: 0;
+  text-align: center;
+  font: 400 16px/24px Varela Round;
+}
+.type_1361 .blockquote .quote-text {
+  font: 400 16px/24px Varela Round;
+  overflow: hidden;
+}
+.type_1361 .blockquote .quote-text .quote-summary {
+  margin-top: 0;
+}
+.type_1361 .blockquote .quote-text h4 {
+  font: 400 24px/32px Libre Baskerville;
+  color: #000000;
+  margin-bottom: 0.6em;
+}
+.type_1361 .blockquote .quote-text .quote-title-wrapper {
+  margin: 10px 0 0 0;
+}
+.type_1361 .blockquote .quote-text .quote-title {
+  width: auto;
+  color: #6b6b6b;
+  border: none;
+  padding: 0px;
+  border-radius: 0px;
+  margin: 0px 0px 15px 0px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.type_1361 .blockquote .quote-text .quote-title .fa {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+  line-height: 1.15;
+}
+.type_1361 .blockquote .quote-text .quote-title .the-title {
+  font-size: 10px;
+  color: #6b6b6b;
+}
+.type_1361 .blockquote .quote-text .quote-content {
+  padding: 0px 15%;
+}
+.type_1361 .blockquote .quote-text .quote-content p {
+  font: 400 16px/24px Varela Round;
+  color: #2c2c2c;
+}
+.type_1361 #owl-demo .item {
+  margin: 3px;
+}
+.type_1361 #owl-demo .item img {
+  display: block;
+  height: auto;
+}
+.type_1361 .owl-carousel {
+  overflow: hidden;
+  padding: 0 30px 70px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.type_1361 .owl-page.active span,
+.type_1361 .owl-page:hover span {
+  opacity: 1;
+  background: #cb7152;
+  border-color: #cb7152;
+}
+@media (max-width: 460px) {
+  .type_1361 .content h2 {
+    font: 400 40px/68px Libre Baskerville !important;
+  }
+}

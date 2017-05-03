@@ -1,0 +1,135 @@
+.type .vamtam-grid {
+  margin: 1em 0;
+}
+.type .vamtam-grid img {
+  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.type .cdsROW {
+  background-color: #fff;
+  font-family: Arial, Verdana, "Bitstream Vera Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  margin: 70px auto;
+  bottom: 35px;
+  border: solid 1px #6aa257;
+  border-radius: 60px;
+  padding: 5px 10px;
+  height: 50px;
+  width: 403px;
+}
+.type .cdsROW .cdsROWcontainer {
+  display: inline-table;
+  height: 37px;
+  text-align: center;
+  line-height: 0;
+}
+.type .cdsROW .cdsROWcontainer .logo {
+  border-right: 1px solid #91b155;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.type .cdsROW .cdsROWcontainer .logo img {
+  box-sizing: border-box;
+  display: block;
+  border-style: none;
+  max-width: 115px;
+  width: 115px;
+  height: auto;
+}
+.type .cdsROW .cdsROWcontainer .name {
+  text-align: center;
+  padding: 0px 7px 0px 9px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  max-width: 157px;
+}
+.type .cdsROW .cdsROWcontainer .name a {
+  font-weight: bold;
+  color: #000;
+  line-height: 100%;
+}
+.type .cdsROW .cdsROWcontainer .name a:hover {
+  text-decoration: none;
+}
+.type .cdsROW .cdsROWcontainer .rating {
+  font-size: 11px;
+  color: #898989;
+  padding-right: 12px;
+  white-space: nowrap;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.type .cdsROW .cdsROWcontainer .rating img {
+  box-sizing: border-box;
+  display: block;
+  border-style: none;
+  max-width: 62px;
+  width: 62px;
+  height: auto;
+  vertical-align: middle;
+}
+.type .cdsROW .cdsROWcontainer .rating span {
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.type .footer-left {
+  font: normal 15px/55px Varela Round;
+  color: #6b6b6b;
+}
+.type .footer-left a {
+  color: #cb7152;
+  transition: all .3s ease;
+}
+.type .footer-left a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.type .footer-right {
+  font: normal 15px/55px Varela Round;
+  color: #6b6b6b;
+  text-align: right;
+}
+.type .footer-right a {
+  color: #cb7152;
+  transition: all .3s ease;
+}
+.type .footer-right a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+@media (max-width: 460px) {
+  .type .cdsROW {
+    font-size: 11px;
+    padding: 5px 0px;
+    width: 268px;
+  }
+  .type .logo img {
+    width: 88px !important;
+  }
+  .type .rating {
+    font-size: 9px !important;
+  }
+  .type .rating img {
+    width: 60px !important;
+  }
+}
+@media (max-width: 992px) {
+  .type .footer-left,
+  .type .footer-right {
+    text-align: center;
+    font: normal 15px/20px Varela Round;
+  }
+}

@@ -1,0 +1,129 @@
+.type_1371 {
+    .header {
+        text-align: center;
+        height: 850px;
+        width: 100%;
+        background: #fff url(../images/site-hero.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        h1 {
+            font-size: 48px;
+            color: #60606e;
+            padding: 10px 40px;
+            border: solid 10px #60606e;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        h5 {
+            color: #60606e;
+            background-color: #7beec7;
+            padding: 10px;
+            margin: 150px 46% -20px 46%;
+            font-weight: 700;
+
+        }
+        p {
+            width: 50%;
+            margin: 0 auto;
+            color: #60606e; 
+        }
+    }
+    .agency {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: -300px;
+        img {
+            max-height: 400px;
+            width: 100%;
+        }
+        .section-title {
+            text-align: left;
+            width: 100%;
+            margin: 0 8.33333333% 30px;
+            span {
+                z-index: 1;
+                font-weight: 700;
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #60606e;
+                position: relative;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            span:after {
+                content: "";
+                background-color: #7beec7;
+                position: absolute;
+                top: 20px;
+                left: 0;
+                z-index: -1;
+                width: 60px;
+                height: 20px;
+            }
+        }
+        p {
+            line-height: 30px;
+            color: #60606e;
+            margin-left: 8.33333333%;
+        }
+        .btn {
+            text-transform: uppercase;
+            float:right;
+            margin-top:30px;
+            background-color: #7beec7;
+            color: #fff;
+            height: 50px;
+            line-height: 50px;
+            min-width: 150px;
+            text-align: center;
+            font-weight: 700;
+            border-radius: 0;
+            padding: 0;
+            transition: all .2s ease-in-out;
+        }
+        .btn:hover {
+            -ms-transform: scale(1.01);
+            transform: scale(1.01);
+            box-shadow: 0 0 10px rgba(0,0,0,.2);
+        }
+    }
+    @media(max-width: 992px){
+        .header {
+            h5 {
+                margin: 150px 42% -20px 42%;
+            }
+        }
+        .agency {
+            margin-top: 30px;
+            .section-title {
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 30px;
+                span:after {
+                    transform: translateX(135%);
+                }
+            }
+            p {
+                text-align: center;
+            }
+            .btn {
+                float: none;
+                margin-left: 40px;
+            }
+
+        }
+    }
+    @media(max-width: 460px){
+        .header {
+            h5 {
+                margin: 150px 36% -20px 36%;
+            }
+            h1 {
+                font-size: 18px;
+            }
+        }
+    }
+}

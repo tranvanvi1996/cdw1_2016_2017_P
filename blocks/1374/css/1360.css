@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Handlee-Regular.ttf');
+}
+.type_1360 .sep-text {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.type_1360 .sep-text .sep-text-before {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.type_1360 .sep-text .sep-text-after {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+.type_1360 .sep-text .sep-text-line {
+  display: inline-block;
+  width: 30%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.type_1360 .sep-text .content {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-right: .7em;
+  padding-left: .7em;
+}
+.type_1360 .sep-text .content h2 {
+  font: 400 56px/68px Libre Baskerville;
+  color: #000000;
+}
+.type_1360 .sep-text .content * {
+  margin: 0;
+  line-height: 1;
+}
+.type_1360 .sep-text .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  padding-top: 10px;
+}
+.type_1360 .sep-text .text-divider-subtitle:before,
+.type_1360 .sep-text .text-divider-subtitle:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
+.type_1360 .sep-text:last-child {
+  margin-bottom: 20px;
+}
+.type_1360 .sep-text.centered .sep-text-after,
+.type_1360 .sep-text.centered .sep-text-before {
+  width: 50%;
+  font-size: 10px;
+}
+.type_1360 .img1 {
+  position: relative;
+  width: inherit;
+  margin: 5px;
+  margin-left: 0;
+}
+.type_1360 .img1 .images1 {
+  width: 219px;
+  height: 326px;
+}
+.type_1360 .img1 .images2 {
+  width: 219px;
+  height: 146px;
+}
+.type_1360 .img2 {
+  position: relative;
+  width: inherit;
+  margin-left: -68px;
+  margin-top: 5px;
+}
+.type_1360 .img2 .images3 {
+  width: 714px;
+  height: 476px;
+}
+.type_1360 .img3 {
+  position: relative;
+  width: inherit;
+  margin: 5px;
+  margin-left: 66px;
+}
+.type_1360 .img3 .images4 {
+  width: 194px;
+  height: 235px;
+}
+.type_1360 .img3 .images5 {
+  width: 194px;
+  height: 236px;
+}
+@media (max-width: 991px) {
+  .type_1360 .img1,
+  .type_1360 .img2,
+  .type_1360 .img3 {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .type_1360 .img1 .images1,
+  .type_1360 .img1 .images2,
+  .type_1360 .img1 .images3,
+  .type_1360 .img1 .images4,
+  .type_1360 .img1 .images5,
+  .type_1360 .img2 .images1,
+  .type_1360 .img2 .images2,
+  .type_1360 .img2 .images3,
+  .type_1360 .img2 .images4,
+  .type_1360 .img2 .images5,
+  .type_1360 .img3 .images1,
+  .type_1360 .img3 .images2,
+  .type_1360 .img3 .images3,
+  .type_1360 .img3 .images4,
+  .type_1360 .img3 .images5 {
+    width: 314px !important;
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 460px) {
+  .type_1360 .content h2 {
+    font: 400 40px/68px Libre Baskerville !important;
+  }
+}
+@media (max-width: 1199px) {
+  .type_1360 .img1 .images1 {
+    width: 169px;
+    height: 276px;
+  }
+  .type_1360 .img1 .images2 {
+    width: 169px;
+    height: 96px;
+  }
+  .type_1360 .img2 .images3 {
+    width: 614px;
+    height: 377px;
+  }
+  .type_1360 .img3 .images4 {
+    width: 144px;
+    height: 185px;
+  }
+  .type_1360 .img3 .images5 {
+    width: 144px;
+    height: 186px;
+  }
+}

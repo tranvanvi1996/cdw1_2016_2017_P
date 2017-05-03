@@ -1,0 +1,150 @@
+.type_1361 {
+    @font-face {
+        font-family: 'Handlee';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/Handlee-Regular.ttf');
+    }
+
+    .sep-text {
+
+        margin: 30px 0 30px 0;
+        text-align: center;
+
+        .sep-text-before {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: right;
+        }
+        .sep-text-after {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;
+        }
+        .sep-text-line {
+            display: inline-block;
+            width: 30%;
+            border-top: 0 solid;
+            border-bottom: 1px solid;
+            color: #EDEDED;
+            vertical-align: baseline;
+        }
+        .content {
+            display: table-cell;
+            vertical-align: middle;
+            white-space: nowrap;
+            padding-right: .7em;
+            padding-left: .7em;
+            h2 {
+                font: 400 56px/68px Libre Baskerville;
+                color: #000000;
+            }
+            * {
+                margin: 0;
+                line-height: 1;
+            }
+        }
+        .text-divider-subtitle {
+            color: #cb7152;
+            font-family: 'Handlee';
+            font-size: 1em;
+            letter-spacing: 0.3em;
+            padding-top: 10px;
+
+        }
+        .text-divider-subtitle:before, .text-divider-subtitle:after {
+            display: inline-block;
+            width: auto;
+            height: 15px;
+            content: "~";
+            font-size: 1.2em;
+            padding: 0px 5px;
+        }
+    }
+    .sep-text:last-child {
+        margin-bottom: 20px;
+    }
+    .sep-text.centered {
+        .sep-text-after, .sep-text-before {
+            width: 50%;
+            font-size: 10px;
+        }
+    }     
+    .blockquote {
+        overflow: auto;
+        margin: 0;
+        padding: 20px 0 10px 0;
+        padding-left: 0;
+        border-left: 0;
+        text-align: center;
+        font: 400 16px/24px Varela Round;
+        .quote-text {
+            font: 400 16px/24px Varela Round;
+            overflow: hidden;
+            .quote-summary {
+                margin-top: 0;
+            }
+            h4 {
+                font: 400 24px/32px Libre Baskerville;
+                color: #000000;
+                margin-bottom: 0.6em;
+            }
+            .quote-title-wrapper {
+                margin: 10px 0 0 0;
+            }
+            .quote-title {
+                width: auto;
+                color: #6b6b6b;
+                border: none;
+                padding: 0px;
+                border-radius: 0px;
+                margin: 0px 0px 15px 0px;
+                font-size: 10px;
+                font-weight: 600;
+                letter-spacing: 0.1em;
+                .fa {
+                    font-size: 16px;
+                    vertical-align: middle;
+                    padding-bottom: 2px;
+                    line-height: 1.15;
+                }
+                .the-title {
+                    font-size: 10px;
+                    color: #6b6b6b;
+                }
+            }
+            .quote-content {
+                padding: 0px 15%;
+                p {
+                    font: 400 16px/24px Varela Round;
+                    color: #2c2c2c;
+                }
+            }
+        }
+
+    }
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        height: auto;
+    }
+    .owl-carousel {
+        overflow: hidden;
+        padding: 0 30px 70px;
+        background: #fff;
+        box-sizing: border-box;
+    }
+    .owl-page.active span, .owl-page:hover span {
+        opacity: 1;
+        background: #cb7152;
+        border-color: #cb7152;
+    }
+
+    @media (max-width: 460px){
+        .content h2 {
+            font: 400 40px/68px Libre Baskerville !important;
+        }
+    }
+}

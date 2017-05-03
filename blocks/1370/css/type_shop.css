@@ -1,0 +1,188 @@
+.type .header {
+  padding: 50px 20px 40px 20px;
+  text-align: center;
+  border-bottom: solid 1px #EDEDED;
+}
+.type .header h1 {
+  margin: 0;
+  line-height: 1.4em;
+  font: normal 64px/82px Libre Baskerville;
+}
+.type .header hr {
+  width: 120px;
+  height: 3px;
+  background: #cb7152;
+  margin-top: 15px;
+  border-top: 0;
+}
+.type .banner {
+  background-color: #F6F6F6;
+  padding-top: 40px;
+}
+.type .banner .product-thumbnail {
+  position: relative;
+  display: block;
+  max-height: none !important;
+  margin-bottom: 0px;
+  overflow: hidden;
+  transform: translateZ(0);
+  border-radius: 6px 6px 0 0;
+}
+.type .banner .product-thumbnail img {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  transition: transform 0.5s;
+  transform: scale(1.10);
+}
+.type .banner .product-thumbnail img:hover {
+  transform: scale(1.0);
+}
+.type .banner .item {
+  border: solid 1px #EDEDED;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: all .2s ease;
+  margin-bottom: 40px;
+}
+.type .banner .item .post-content-meta {
+  font-family: 'Varela Round';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  padding: 0px 30px 10px 30px;
+  margin-top: 25px;
+}
+.type .banner .item .post-content-meta a {
+  border-radius: 20em;
+  padding: 6px 16px;
+  border: solid 1px #EDEDED;
+  color: #000000;
+  font-size: 13px;
+  margin-right: 5px;
+  transition: all .3s ease;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.type .banner .item .post-content-meta a:hover {
+  border-color: #cb7152;
+  background: #cb7152;
+  color: #ffffff;
+}
+.type .banner .item .single {
+  padding: 0 25px;
+}
+.type .banner .item .single h4 {
+  margin: 10px 0px 0px 0px;
+}
+.type .banner .item .single h4 a {
+  text-decoration: none;
+  color: #000;
+  transition: color .3s ease;
+  font: normal 24px/32px Libre Baskerville;
+}
+.type .banner .item .single h4 a:hover {
+  text-decoration: none;
+  color: #cb7152;
+}
+.type .banner .item p {
+  margin: 0;
+  padding: 20px 30px;
+  color: #2c2c2c;
+}
+.type .banner .item:hover {
+  box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.1);
+}
+.type .banner .item:hover .product-thumbnail img {
+  transform: scale(1.0);
+}
+.type .banner h5 {
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+  margin-top: -5px;
+  opacity: 1;
+}
+.type .banner .tagged_as {
+  text-transform: uppercase;
+  color: #6b6b6b;
+  padding: 0px 30px 10px 30px;
+}
+.type .banner .tagged_as .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.type .banner .tagged_as a {
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+  transition: color .3s;
+}
+.type .banner .tagged_as a:hover {
+  color: #cb7152;
+  text-decoration: none;
+}
+.type .banner .title {
+  height: auto;
+  width: 100%;
+  border-top: solid 1px #EDEDED;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.type .banner .title a {
+  text-decoration: none;
+  color: #000;
+  font-size: 10px;
+}
+.type .banner .title a:hover {
+  color: #cb7152;
+  text-decoration: none;
+}
+.type .banner .title a:after {
+  content: "\00B7";
+  font-size: 16px;
+  padding-left: 5px;
+  color: #cb7152;
+  margin-right: 3px;
+}
+@media (max-width: 460px) {
+  .type .post-content-meta {
+    padding: 0px 20px 10px 20px !important;
+  }
+  .type .single {
+    padding: 0 20px !important;
+  }
+  .type .item p {
+    padding: 20px 20px !important;
+  }
+  .type .title {
+    padding: 10px 20px !important;
+  }
+  .type .tagged_as {
+    padding: 0px 20px 10px 20px !important;
+  }
+}
